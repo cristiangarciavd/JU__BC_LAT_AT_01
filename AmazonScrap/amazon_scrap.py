@@ -1,18 +1,22 @@
 from bs4 import BeautifulSoup
 import requests
 
+#Replace the spaces of the search term given for '+' symbol and concatenate it to a template to replicate an amazon search product URL.
 def get_url(search_term):
     template = 'https://www.amazon.com.mx/s?k={}&__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2KCL0E2N251B&s'
     search_term = search_term.replace(' ', '+')
     return template.format(search_term)
-
+#An example of the method
 url = get_url("camisas nike")
 print(url)
 
+#A User-Agent header identifies your application, its version number, and the platform and programming language that you are using.
 my_header = {'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.101 Safari/537.36'}
 
+#Include a User-Agent header in all requests
 page = requests.get(url, headers=my_header)
 
+#Beautiful Soup object represents the document as a nested data structure
 soup = BeautifulSoup(page.content, 'html.parser')
 
 titles = soup.find_all(class_="s-line-clamp-1")
