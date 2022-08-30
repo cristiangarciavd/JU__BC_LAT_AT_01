@@ -18,11 +18,12 @@ page = requests.get(url, headers=my_header)
 
 #Beautiful Soup object represents the document as a nested data structure
 soup = BeautifulSoup(page.content, 'html.parser')
-
+#Search by CSS class using the keyword argument class_
 titles = soup.find_all(class_="s-line-clamp-1")
 sub_titles = soup.find_all(class_="a-size-base-plus a-color-base a-text-normal")
 prices = soup.find_all(class_="a-price-whole")
 
+#Examples of prices and titles fetch:
 # for price in prices:
 #     price = price.get_text()
 #     print(price)
