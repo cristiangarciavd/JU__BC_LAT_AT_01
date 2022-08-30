@@ -1,4 +1,8 @@
 Overview
+Prerequisites:
+-Python3.8+
+-requests(library)
+-bs4, BeautifulSoap(library)
 
 amazon_scrap.py file has a function 'get_url()' in wich the input is a string and returns a formated string
 replicating the URL string format of amazon.
