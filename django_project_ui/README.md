@@ -21,6 +21,7 @@ django-admin startproject name_of_project
 Step 4: Create section (application)
 - Create new application:
 python3 manage.py startapp name_of_application
+
 Step 5: Settings
 - Review settings.py file to:
 - Specify/check database and other configurations
@@ -28,6 +29,7 @@ Step 5: Settings
 INSTALLED_APPS = [
 'name_of_application.apps.NameOfApplicationConfig',
 ]
+
 Step 6: URLs mapping
 - Go to name_of_project/urls.py and register new application
 
