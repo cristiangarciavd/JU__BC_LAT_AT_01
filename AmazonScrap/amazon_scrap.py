@@ -1,4 +1,3 @@
-from pydoc import resolve
 from bs4 import BeautifulSoup
 import requests
 
@@ -35,17 +34,10 @@ headers = {
 
 
 response = requests.get(url, headers=headers)
-with open("response_amazon.txt", "a") as o:
-    o.write(response.text)
 print(response.url)
 print(response.status_code)
 #print(response.text)
 
-# # while r.status_code == 503:
-# r = requests.get('https://www.amazon.com.mx/s?k=beyblade+burst&crid=FDW49YUC2I8W&sprefix=%2Caps%2C343&ref=nb_sb_ss_recent_1_0_recent', headers=my_header, proxies={'https': "96.17.212.57:443"})
-# print(r.url)
-# print('status code: ', r.status_code)
-# # print(r.text)
 
 #Beautiful Soup object represents the document as a nested data structure
 soup = BeautifulSoup(response.content, 'html.parser')
@@ -58,13 +50,6 @@ print("sub_titles:", len(sub_titles))
 prices = soup.find_all(class_="a-price-whole")
 print("prices:", len(prices))
 
-# for price in prices:
-#     price = price.get_text()
-#     print(price)
-
-# for title in titles:
-#     title = title.get_text()
-#     print(title)
 print("------Top 10 Products-----")
 for index in range(10):
     print(" : ", sub_titles[index].get_text(), ": $", prices[index].get_text())
