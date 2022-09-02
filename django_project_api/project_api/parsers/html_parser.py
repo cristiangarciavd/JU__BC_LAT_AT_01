@@ -1,11 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 from requests_html import HTMLSession
-
-
-class Parser:
-    def parse():
-        pass
+from parser import Parser
 
 class AmazonParser(Parser):
 
