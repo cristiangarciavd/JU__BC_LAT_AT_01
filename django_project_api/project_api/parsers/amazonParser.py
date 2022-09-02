@@ -27,7 +27,8 @@ class AmazonParser(Parser):
                 'product' : product,
                 'price' : price,
                 'link_img' : link_img,
-                'link_url' : link_url
+                'link_url' : link_url,
+                'origin' : 'Amazon'
                 })
             except:
                 pass
