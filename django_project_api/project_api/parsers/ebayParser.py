@@ -1,7 +1,5 @@
 from parser import Parser
 from bs4 import BeautifulSoup
-import requests
-from requests_html import HTMLSession
 
 class EbayParser(Parser):
 
@@ -27,9 +25,11 @@ class EbayParser(Parser):
                 'product' : product,
                 'price' : price,
                 'link_img' : link_img,
-                'link_url' : link_url
+                'link_url' : link_url,
+                'origin' : 'Ebay'
                 })
             except:
                 pass
+
 
         return ebay_products

@@ -1,7 +1,5 @@
 from parser import Parser
 from bs4 import BeautifulSoup
-import requests
-from requests_html import HTMLSession
 
 class AmazonParser(Parser):
 
@@ -29,7 +27,8 @@ class AmazonParser(Parser):
                 'product' : product,
                 'price' : price,
                 'link_img' : link_img,
-                'link_url' : link_url
+                'link_url' : link_url,
+                'origin' : 'Amazon'
                 })
             except:
                 pass
