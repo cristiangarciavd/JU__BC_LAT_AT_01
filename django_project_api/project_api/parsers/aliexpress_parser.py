@@ -1,7 +1,7 @@
 from parser import Parser
 from bs4 import BeautifulSoup
 
-class AliParser(Parser):
+class AliexpressParser(Parser):
 
     def parse(self, page):
 
