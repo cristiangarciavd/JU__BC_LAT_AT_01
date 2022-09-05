@@ -1,5 +1,5 @@
 import unittest
-from parserFactory import ParserFactory
+from parser_factory import ParserFactory
 from custom_exceptions import InvalidParserFactoryOption, MultipleValuesParserFactoryClass
 
 

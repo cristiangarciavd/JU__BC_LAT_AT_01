@@ -16,7 +16,7 @@ class ParserFactory(object):
     def get_parser(self, parser_type):
         parsers_classes = Parser.__subclasses__()
         parser = list(
-            filter(lambda parser_class: parser_class.__name__.lower() == parser_type.lower(), parsers_classes))
+            filter(lambda parser_class: parser_class.__name__.lower() == parser_type.lower().strip(), parsers_classes))
         if len(parser) > 0:
             return parser[0]()
         else:
