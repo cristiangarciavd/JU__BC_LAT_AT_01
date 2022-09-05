@@ -1,7 +1,6 @@
 from parser import Parser
 from bs4 import BeautifulSoup
 
-
 class EbayParser(Parser):
 
     def parse(self, page):
@@ -31,5 +30,6 @@ class EbayParser(Parser):
                 })
             except:
                 pass
+
 
         return ebay_products
