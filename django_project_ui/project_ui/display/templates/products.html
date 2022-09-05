@@ -1,0 +1,50 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Products</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+</head>
+<body>
+    <section class="section">
+        <div class="container mb-5">
+            <h1 class="title is-1">
+                Search Result
+            </h1>
+            <p class="subtitle is-3">
+                Here we can see our products
+            </p>
+        </div>
+        <div class="container">
+            <div id="ResultsContainer" class="columns is-multiline">
+                {% for item in response %}
+                <div class="column is-half">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="media">
+                                 <div class="media-left">
+                                    <figure class="image is-48x48">
+                                        <img src= {{item.link_img}} alt= {{item.product}}>
+                                    </figure>
+                                </div>
+                            <div class="media-content">
+                                <h2 class="title is-5">{{item.product}}</h2>
+                                <h3 class="subtitle is-6 company">{{item.origin}}</h3>
+                            </div>
+                        </div>
+    
+                        <div class="content">
+                            <p class="location">
+                            ${{item.price}}
+                            </p>
+                        </div>
+                        <footer class="card-footer">
+                            <a href="{{item.link_url}}" target="_blank" class="card-footer-item">Link</a>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+
+            {% endfor %}
+</body>
+</html>
