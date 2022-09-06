@@ -24,6 +24,8 @@ class AmazonParser(Parser):
                     price = price.replace('<span class="a-price-whole">', '')
                     price = price.replace('<span class="a-price-fraction">', '')
                     price = price.replace('</span>', '')
+                    if price == 'NoneNone':
+                        continue
                     link_img = (item.parent.parent.parent.find("img"))["src"]
                     link_url = "https://www.amazon.com" + item.parent.parent.parent.find("a", class_ = "a-link-normal s-no-outline", href = True)['href']
                     amazon_products.append({
@@ -45,7 +47,8 @@ class AmazonParser(Parser):
                 price = price.replace('<span class="a-price-whole">', '')
                 price = price.replace('<span class="a-price-fraction">', '')
                 price = price.replace('</span>', '')
-
+                if price == 'NoneNone':
+                        continue
                 link_img = (item.find("img"))["src"]
                 link_url = "https://www.amazon.com" + item.find("a", class_ = "a-link-normal s-no-outline", href = True)['href']
                 amazon_products.append({
