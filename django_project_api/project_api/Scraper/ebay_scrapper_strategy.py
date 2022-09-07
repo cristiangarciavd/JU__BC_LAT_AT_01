@@ -19,6 +19,6 @@ class EbayScrapperStrategy():
         self.html = r.text
         return self.html
 
-x = EbayScrapperStrategy()
+#x = EbayScrapperStrategy()
 
-print(x.read_information("camisa para hombre"))
+#print(x.read_information("camisa para hombre"))
