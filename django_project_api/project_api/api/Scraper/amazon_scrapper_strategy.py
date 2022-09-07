@@ -29,12 +29,14 @@ class AmazonScrapperStrategy(ScraperStrategy):
         }
         self.url = None
 
-    def get_url(self, search_term):
-        search_term = search_term.replace(' ', '+')
-        self.url = self.__template.format(search_term)
+    def get_url(self, product_name):
+        product_name = product_name.replace(' ', '+')
+        self.url = self.__template.format(product_name)
         return self.url
 
-    def read_information(self, url=None):
+    def read_information(self, product_name):
+        url = self.get_url(product_name)
+
         if url:
             try:
                 requests.get(url)
@@ -47,7 +49,3 @@ class AmazonScrapperStrategy(ScraperStrategy):
             response = requests.get(self.url, headers=self.__headers)
             raise TypeError('Missing search term')
         return response
-
-Example = AmazonScrapperStrategy()
-response = Example.read_information('daf')
-#print(response.url)
