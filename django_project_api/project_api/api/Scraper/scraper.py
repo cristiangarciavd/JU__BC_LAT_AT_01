@@ -21,14 +21,3 @@ class Scraper:
             return lst
         else:
             raise ValueError("There is not a product")
-
-
-if __name__ == "__main__":
-
-    scraper = Scraper()
-    scrap = scraper.scrap("camisa")
-    print(scrap)
-
-
-
-
