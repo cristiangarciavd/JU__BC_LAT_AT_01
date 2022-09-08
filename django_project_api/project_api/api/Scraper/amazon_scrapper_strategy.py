@@ -1,7 +1,6 @@
 from scraper_strategy import ScraperStrategy
 import requests
 
-
 class AmazonScrapperStrategy(ScraperStrategy):
     def __init__(self):
         self.__template = 'https://www.amazon.com/s?k={}'
@@ -30,9 +29,6 @@ class AmazonScrapperStrategy(ScraperStrategy):
         }
         self.url = None
 
-    def __str__(self):
-        return "amazon"
-
     def get_url(self, product_name):
         product_name = product_name.replace(' ', '+')
         self.url = self.__template.format(product_name)
@@ -52,4 +48,4 @@ class AmazonScrapperStrategy(ScraperStrategy):
             self.get_url("")
             response = requests.get(self.url, headers=self.__headers)
             raise TypeError('Missing search term')
-        return response
+        return response.text
