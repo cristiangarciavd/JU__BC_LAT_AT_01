@@ -7,6 +7,7 @@ TEMPLATE_DIRS = (
 )
 
 class Receiver:
+    
     @wrap(entering, exiting)
     def get_products(request): 
         """ Retrieve products from API """

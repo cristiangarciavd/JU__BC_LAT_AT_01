@@ -27,13 +27,18 @@ def wrap(pre, post):
 		return call
 	return decorate
 
-def entering(func):
+def entering(func, *args):
 	""" Pre function logging """
 	logger = get_logger('appLogger')
 	logger.debug("Entered %s", func.__name__)
 	logger.info(func.__doc__)
 	logger.debug("Function at line %d in %s" %
 		(func.__code__.co_firstlineno, func.__code__.co_filename))
+	if args:
+		try:
+			logger.warn("The argument %s is %s" % (func.__code__.co_varnames[0], *args))
+		except IndexError:
+			logger.warn("No arguments")
 	
 
 def exiting(func):

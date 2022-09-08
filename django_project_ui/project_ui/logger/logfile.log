@@ -1,0 +1,20 @@
+2022-09-08 22:54:18,911 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-08 22:55:46,482 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-08 22:55:50,055 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-08 22:56:33,483 - logger - appLogger -DEBUG - Entered get_products
+2022-09-08 22:56:33,483 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-08 22:56:33,483 - logger - appLogger -DEBUG - Function at line 10 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-08 22:56:34,736 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-08 22:57:59,203 - logger - appLogger -DEBUG - Entered get_products
+2022-09-08 22:57:59,203 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-08 22:57:59,203 - logger - appLogger -DEBUG - Function at line 10 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-08 22:58:28,326 - logger - appLogger -DEBUG - Entered get_products
+2022-09-08 22:58:28,327 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-08 22:58:28,328 - logger - appLogger -DEBUG - Function at line 10 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-08 22:58:29,566 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-08 22:59:09,153 - logger - appLogger -DEBUG - Entered get_products
+2022-09-08 22:59:09,153 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-08 22:59:09,153 - logger - appLogger -DEBUG - Function at line 10 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-08 22:59:10,220 - logger - appLogger -DEBUG - Entered get_products
+2022-09-08 22:59:10,220 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-08 22:59:10,220 - logger - appLogger -DEBUG - Function at line 10 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
