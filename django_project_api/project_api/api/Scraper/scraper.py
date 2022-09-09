@@ -1,11 +1,13 @@
-from amazon_scraper_strategy import ScraperStrategy, AmazonScraperStrategy, AliexpressScraperStrategy
-from ebay_scraper import EbayScrapperStrategy
+from scraper_strategy import ScraperStrategy
+from amazon_scrapper_strategy import AmazonScrapperStrategy
+from ebay_scrapper_strategy import EbayScrapperStrategy
+from aliexpress_scrapper_strategy import AliexpressScraperStrategy
 
 
 class Scraper:
 
     def __init__(self):
-        self.strategies = [AmazonScraperStrategy(), EbayScrapperStrategy(), AliexpressScraperStrategy()]
+        self.strategies = [AmazonScrapperStrategy(), EbayScrapperStrategy(), AliexpressScraperStrategy()]
 
     def scrap_page(self, strategy: ScraperStrategy, product) -> {str: str}:
         result = strategy.read_information(product)
@@ -19,7 +21,3 @@ class Scraper:
             return lst
         else:
             raise ValueError("There is not a product")
-
-
-
-

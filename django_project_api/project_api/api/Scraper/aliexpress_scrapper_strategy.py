@@ -1,4 +1,4 @@
-
+import chromedriver_binary
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from scraper_strategy import ScraperStrategy
@@ -38,7 +38,7 @@ class AliexpressScraperStrategy(ScraperStrategy):
     def read_information(self, item):
         if(item==''):
             raise ValueError(f"Invalid item: Please digit a valid item")
-        else: 
+        else:
             url=self.get_url(item)
             option = Options()
             option.headless = True
