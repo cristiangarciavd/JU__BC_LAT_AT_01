@@ -6,12 +6,25 @@
 [What problem does the software solve]
 
 ## Tecnologies
-The project is using the following technologies:
-Django - 4.1
-Beautifulsoup4 - 4.11.1
-selenium - 4.4.3
+[Reed requirements.txt]
 
 ## Motivation
 [Reasons for the project]
 
 
+---
+### Change branch : 
+'git checkout namebranch'
+
+### Pull request:
+'git push -u namebranch'
+
+---
+## New adition
+If you downloaded a module and the rest of the team need to have it,
+You should use the following command: 
+'pipreqs' or 'pipfreeze > requirements.txt'
+
+## To install everyone else aditions:
+Use the command:
+'pip install -r requirements.txt'

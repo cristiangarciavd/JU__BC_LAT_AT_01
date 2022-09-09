@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'project_api.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 #DATABASES = {
-#     # read 'DATABASE_URL' and raise ImproperlyConfigured exception if not found
+#     read 'DATABASE_URL' and raise ImproperlyConfigured exception if not found
 #     'default': env.db(),
 #     }
 
