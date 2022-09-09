@@ -11,7 +11,7 @@ class Product(models.Model):
     def __str__(self):
         return self.name
 
-class Search(model.Model):
+class Search(models.Model):
     name = models.CharField(max_length=40) # This is the input from the user, EX: 'mouse gamer'
     last_search = models.DateTimeField(True, True, editable=False) # I think it has to be editable
     times_search = models.PositiveIntegerField()
