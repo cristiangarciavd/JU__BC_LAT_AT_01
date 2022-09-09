@@ -1,9 +1,12 @@
 from parser import Parser
 from bs4 import BeautifulSoup
+from logger.logger import *
 
 class EbayParser(Parser):
 
+    @wrap(entering, exiting)
     def parse(self, page):
+        """ Parse information from Ebay HTML """
 
         soup = BeautifulSoup(page, "html.parser")
 

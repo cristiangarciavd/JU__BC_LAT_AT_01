@@ -48,4 +48,4 @@ class AmazonScrapperStrategy(ScraperStrategy):
             self.get_url("")
             response = requests.get(self.url, headers=self.__headers)
             raise TypeError('Missing search term')
-        return response
+        return response.text
