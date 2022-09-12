@@ -1,5 +1,5 @@
 import unittest
-from amazon_parser import AliParser
+from api.parser.parsers.aliexpress_parser import AliexpressParser
 
 class test_aliexpress_parser(unittest.TestCase):
 
