@@ -13,5 +13,5 @@ class CRUDView(View):
 		pass
 
 	def delete(self, requests):
-
+		pass
 

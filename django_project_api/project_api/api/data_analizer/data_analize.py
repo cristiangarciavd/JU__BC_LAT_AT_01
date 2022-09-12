@@ -1,7 +1,7 @@
 from ast import parse
 from itertools import product
-from Scraper.scraper import Scraper
-from parsers.parser_factory import ParserFactory
+from scraper.scraper import Scraper
+from parser.parser_factory import ParserFactory
 
 product_name = 'cartitas de pokemon'
 pages = ['amazon', 'ebay', 'aliexpress']
