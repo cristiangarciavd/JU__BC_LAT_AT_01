@@ -29,6 +29,9 @@ class AmazonScrapperStrategy(ScraperStrategy):
         }
         self.url = None
 
+    def __str__(self):
+        return "amazon"
+
     def get_url(self, product_name):
         product_name = product_name.replace(' ', '+')
         self.url = self.__template.format(product_name)
