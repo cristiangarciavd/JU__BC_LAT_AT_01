@@ -1,4 +1,5 @@
 from django.db import models
+<<<<<<< HEAD
 from datetime import date
 
 # Create your models here.
@@ -10,6 +11,9 @@ class Search(models.Model):
 
     def __str__(self):
         return self.name
+=======
+
+>>>>>>> main
 
 class Product(models.Model):
     name = models.CharField(max_length=80)
@@ -17,8 +21,19 @@ class Product(models.Model):
     image_url = models.URLField(max_length=80)
     url = models.URLField(max_length=80)
     search = models.ForeignKey('Search', on_delete=models.CASCADE)
+    origin = models.CharField(max_length=80)
+    
+    def __str__(self):
+        return self.name
+
+class Search(models.Model):
+    name = models.CharField(max_length=40) 
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return self.name
+        
+
 
 

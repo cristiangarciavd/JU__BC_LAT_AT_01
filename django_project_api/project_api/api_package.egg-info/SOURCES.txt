@@ -5,6 +5,8 @@ api/apps.py
 api/models.py
 api/urls.py
 api/views.py
+api/db_manager/__init__.py
+api/db_manager/db_manager.py
 api/migrations/0001_initial.py
 api/migrations/__init__.py
 api/parser/__init__.py
