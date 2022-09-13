@@ -1,4 +1,4 @@
-from scraper_strategy import ScraperStrategy
+from api.scraper.scraper_strategy import ScraperStrategy
 import requests
 
 class AmazonScrapperStrategy(ScraperStrategy):
@@ -28,6 +28,9 @@ class AmazonScrapperStrategy(ScraperStrategy):
             'viewport-width': '1600',
         }
         self.url = None
+
+    def __str__(self):
+        return "amazon"
 
     def get_url(self, product_name):
         product_name = product_name.replace(' ', '+')

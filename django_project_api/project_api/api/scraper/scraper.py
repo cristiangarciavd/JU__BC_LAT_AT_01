@@ -1,7 +1,7 @@
-from scraper_strategy import ScraperStrategy
-from amazon_scrapper_strategy import AmazonScrapperStrategy
-from ebay_scrapper_strategy import EbayScrapperStrategy
-from aliexpress_scrapper_strategy import AliexpressScraperStrategy
+from api.scraper.scraper_strategy import ScraperStrategy
+from api.scraper.amazon_scrapper_strategy import AmazonScrapperStrategy
+from api.scraper.ebay_scrapper_strategy import EbayScrapperStrategy
+from api.scraper.aliexpress_scrapper_strategy import AliexpressScraperStrategy
 
 
 class Scraper:

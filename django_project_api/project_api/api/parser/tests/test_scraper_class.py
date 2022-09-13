@@ -1,6 +1,6 @@
 import unittest
 
-from main import Scraper
+from api.scraper.scraper import Scraper
 
 
 class TestScraper(unittest.TestCase):
@@ -10,7 +10,7 @@ class TestScraper(unittest.TestCase):
         self.assertTrue(isinstance(scraper, Scraper))
 
     def test_scrap_page(self):
-        from ebay_scraper import EbayScrapperStrategy
+        from api.scraper.ebay_scrapper_strategy import EbayScrapperStrategy
         scraper = Scraper()
         result = scraper.scrap_page(EbayScrapperStrategy(), "shirt")
         k = list(result.keys())
