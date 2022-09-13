@@ -2,8 +2,7 @@ from django.db import models
 # Create your models here.
 
 class Search(models.Model):
-    name = models.CharField(max_length=40) # This is the input from the user, EX: 'mouse gamer'
-    #last_search = models.DateTimeField(True, True, editable=False) # I think it has to be editable
+    name = models.CharField(max_length=40) 
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
