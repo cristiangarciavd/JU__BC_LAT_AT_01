@@ -1,6 +1,7 @@
 from django.urls import path
-from .views import CRUDView
+from .views import Product
 
-urlpatterns=[
-	path('popular/', CRUDView.as_view(), name='CRUDView')
+urlpatterns = [
+	path('product/<str:prod_name>', Product.as_view())
+
 ]

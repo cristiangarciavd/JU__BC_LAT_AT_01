@@ -1,4 +1,4 @@
-from parser import Parser
+from api.parser.parser import Parser
 from bs4 import BeautifulSoup
 from logger.logger import *
 

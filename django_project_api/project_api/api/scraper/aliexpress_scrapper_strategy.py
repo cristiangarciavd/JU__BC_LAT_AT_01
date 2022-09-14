@@ -1,7 +1,6 @@
-import chromedriver_binary
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from scraper_strategy import ScraperStrategy
+from api.scraper.scraper_strategy import ScraperStrategy
 
 
 class AliexpressScraperStrategy(ScraperStrategy):

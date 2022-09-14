@@ -1,5 +1,5 @@
 import requests
-from scraper_strategy import ScraperStrategy
+from api.scraper.scraper_strategy import ScraperStrategy
 
 
 class EbayScrapperStrategy(ScraperStrategy):

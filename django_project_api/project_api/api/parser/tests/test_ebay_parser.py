@@ -1,5 +1,5 @@
 import unittest, requests
-from ebay_parser import EbayParser
+from api.parser.parsers.ebay_parser import EbayParser
 
 class test_ebay_parser(unittest.TestCase):
 
