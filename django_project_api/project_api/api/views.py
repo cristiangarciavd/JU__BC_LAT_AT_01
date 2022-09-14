@@ -14,7 +14,7 @@ def get_products_by_search(request, search_term):
 	return list_of_objects
 
 
-def create_search(request, search_term): #It also updates the search
+def create_search(search_term): #It also updates the search
 	try:
 		search = Search.object.get(name=search_term)
 		search.updated_at = date.today()
@@ -24,7 +24,7 @@ def create_search(request, search_term): #It also updates the search
 		search = Search(name=search_term, created_at=date.today(), updated_at=date.today())
 		search.save()
 
-def create_product(request, dict_product, search_term): #product is the dict where it has the information
+def create_product(dict_product, search_term): #product is the dict where it has the information
 	product_name = dict_product["product"]
 	product_price = dict_product["price"]
 	product_img = dict_product["link_img"]
@@ -40,7 +40,10 @@ def create_product(request, dict_product, search_term): #product is the dict whe
 	new_product.save()
 
 
-def get_most_popular(request):
-	popular_searchs = Search.object.order_by('times_searched')[:10]
+def get_most_popular():
+	list_of_popular_products = []
+	popular_searchs = Search.object.order_by('times_searched')[:5]
 	for search in popular_searchs:
-		
+		list_products = get_products_by_search(search)
+		list_of_popular_products.append(list_products)
+	return list_of_popular_products
