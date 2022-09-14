@@ -32,24 +32,11 @@ class DataCollector():
             self.__sorted_products.append(sorted(products, key=lambda x: float(x['price']), reverse=reverse))
         return self.__sorted_products 
 
-    def price_validation(self, products):
-        invalid_price_products = []
-        pattern = re.compile(r"\d{1,3}[\s\,\d]\d{1,3}[\s\,\d]\d{1,3}\.\d{1,3}|\d{1,3}\.\d{1,3}|\d{1,3}[\s\,\d]\d{1,3}\.\d{1,3}")
-        for product in products[:]:
-            matches = pattern.findall(product['price'])
-            if matches:
-                matches = matches[0].replace('\xa0', "")
-                matches = matches.replace(',', "")
-                product['price'] = matches
-            else:
-                invalid_price_products.append(product)
-                products.remove(product)
-
     def collect(self, product_name):
         self.__scrap_html_contents(product_name)
         self.__parse_data()
-        for products in self.__pages_products: #To do: Must implement price validation in parsers files
-            self.price_validation(products)
+        # for products in self.__pages_products: #To do: Must implement price validation in parsers files
+        #     self.price_validation(products)
 
     def top_x_products(self, x = 'all'):
         top_products = []
@@ -71,7 +58,7 @@ class DataCollector():
 # instance = DataCollector()
 # instance.collect('camisas para hombre')
 # instance.sort_by_price()
-# list = instance.top_x_products(5)
+# list = instance.top_x_products()
 # for page in list:
 #     for product in page:
 #         print(product['product'], ":", product['price'], product['origin'])

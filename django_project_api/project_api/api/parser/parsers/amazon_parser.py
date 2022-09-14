@@ -1,17 +1,17 @@
 from api.parser.parser import Parser
 from bs4 import BeautifulSoup
-from logger.logger import *
+# from logger.logger import *
 
 class AmazonParser(Parser):
     
-    @wrap(entering, exiting)
+    # @wrap(entering, exiting)
     def parse(self, page):
         """ Parse information from Amazon HTML """
         soup = BeautifulSoup(page, "html.parser")
         
         amazon_products = []
 
-        all_items = soup.find_all("div", {'data-component-type':"s-search-result"})
+        all_items = soup.find_all(attrs = {'data-component-type':"s-search-result"})
 
         if len(all_items) == 0:
             
@@ -26,6 +26,7 @@ class AmazonParser(Parser):
                     price = price.replace('<span class="a-price-whole">', '')
                     price = price.replace('<span class="a-price-fraction">', '')
                     price = price.replace('</span>', '')
+                    price = price.replace(',', '')
                     if price == 'NoneNone':
                         continue
                     link_img = (item.parent.parent.parent.find("img"))["src"]
@@ -39,16 +40,17 @@ class AmazonParser(Parser):
                     })
                 except:
                     pass
-
+        
         for item in all_items:  
 
             try:
-                product = (item.find(class_="a-size-base-plus a-color-base a-text-normal")).get_text()
+                product = (item.find(attrs= {"class" : ["a-size-base-plus a-color-base a-text-normal", "a-size-medium a-color-base a-text-normal"]})).get_text()
                 price = str(item.find("span", {'class' : "a-price-whole"}))+str(item.find(class_="a-price-fraction"))
                 price = price.replace('<span class="a-price-decimal">', '')
                 price = price.replace('<span class="a-price-whole">', '')
                 price = price.replace('<span class="a-price-fraction">', '')
                 price = price.replace('</span>', '')
+                price = price.replace(',', '')
                 if price == 'NoneNone':
                         continue
                 link_img = (item.find("img"))["src"]
