@@ -1,5 +1,5 @@
 from django.urls import path
-from . import views
+from .views import CRUDView
 
 urlpatterns=[
     path('products/', CRUDView.as_view(), name="products_list"),
