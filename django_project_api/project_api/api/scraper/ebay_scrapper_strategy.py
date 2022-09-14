@@ -1,7 +1,8 @@
 import requests
+from api.scraper.scraper_strategy import ScraperStrategy
 
 
-class EbayScrapperStrategy(ScrapperStrategy):
+class EbayScrapperStrategy(ScraperStrategy):
     def __init__(self) -> None:
         self.url = "https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw={}&_sacat=0"
 
@@ -22,7 +23,3 @@ class EbayScrapperStrategy(ScrapperStrategy):
             print("Something go wrong")
         self.html = r.text
         return self.html
-
-#x = EbayScrapperStrategy()
-
-#print(x.read_information("camisa para hombre"))

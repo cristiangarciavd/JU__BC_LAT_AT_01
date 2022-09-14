@@ -1,6 +1,6 @@
-from parser import Parser
-from parsers import *
-from custom_exceptions import InvalidParserFactoryOption, MultipleValuesParserFactoryClass
+from api.parser.parser import Parser
+from api.parser.parsers import *
+from api.parser.custom_exceptions import InvalidParserFactoryOption, MultipleValuesParserFactoryClass
 
 
 class ParserFactory(object):

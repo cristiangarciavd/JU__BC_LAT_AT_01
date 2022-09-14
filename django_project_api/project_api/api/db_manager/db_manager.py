@@ -1,4 +1,4 @@
-from ..models import Product, Search
+from .project_api.api.models import Product, Search
 import datetime
 
 DAYS_TO_UPDATE = 4
@@ -61,4 +61,3 @@ class DbManager(object):
             datos={'message':  'No items passed'}
         return datos
         
-

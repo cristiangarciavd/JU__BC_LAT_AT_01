@@ -1,14 +1,8 @@
 from django.db import models
+from datetime import date
+
 # Create your models here.
 
-class Search(models.Model):
-    name = models.CharField(max_length=40) # This is the input from the user, EX: 'mouse gamer'
-    #last_search = models.DateTimeField(True, True, editable=False) # I think it has to be editable
-    created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(auto_now=True)
-
-    def __str__(self):
-        return self.name
 
 class Product(models.Model):
     name = models.CharField(max_length=80)
@@ -16,8 +10,20 @@ class Product(models.Model):
     image_url = models.URLField(max_length=80)
     url = models.URLField(max_length=80)
     search = models.ForeignKey('Search', on_delete=models.CASCADE)
+    origin = models.CharField(max_length=80)
+    
+    def __str__(self):
+        return self.name
+
+class Search(models.Model):
+    name = models.CharField(max_length=40) 
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+    times_searched = models.IntegerField(default=1)
 
     def __str__(self):
         return self.name
+        
+
 
 

@@ -1,5 +1,5 @@
 import unittest
-from Scrappers.amazon_scrapper_strategy import AmazonScrapperStrategy
+from api.scraper.amazon_scrapper_strategy import AmazonScrapperStrategy
 
 class TestAmazonScrapperStrategy(unittest.TestCase):
     def test_geturl_method(self):
