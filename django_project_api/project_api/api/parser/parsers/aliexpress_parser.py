@@ -46,6 +46,8 @@ class AliexpressParser(Parser):
                 price_all = item.find(class_ = "mGXnE _37W_B")
                 price_items = price_all.find_all('span')
                 price = str(price_items[1].get_text())+str(price_items[2].get_text())+str(price_items[3].get_text())
+                price = price.replace('.', '')
+                price = price.replace(',', '.')
                 link_img = "https:" + (item.find("img"))["src"]
                 link_url = "https:" + item['href']
                 aliexpress_products.append({
