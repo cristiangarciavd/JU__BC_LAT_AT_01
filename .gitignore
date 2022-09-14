@@ -2,5 +2,3 @@
 /env
 .env
 __pycache__
-django_project_api/project_api/project_api/__pycache__/settings.cpython-310.pyc
-*.pyc
