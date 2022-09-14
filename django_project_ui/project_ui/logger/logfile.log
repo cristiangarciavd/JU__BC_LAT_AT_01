@@ -1,0 +1,424 @@
+2022-09-14 19:01:32,464 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:01:32,465 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:01:32,465 - logger - appLogger -DEBUG - Function at line 11 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:01:34,412 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 19:04:22,186 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:04:22,186 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:04:22,186 - logger - appLogger -DEBUG - Function at line 11 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:04:27,402 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 19:15:35,663 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:15:35,665 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:15:35,665 - logger - appLogger -DEBUG - Function at line 11 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:16:10,267 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:16:10,267 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:16:10,267 - logger - appLogger -DEBUG - Function at line 11 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:16:14,976 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 19:32:05,172 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:32:05,173 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:32:05,173 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:32:19,720 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:32:19,721 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:32:19,721 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:32:21,089 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:32:21,089 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:32:21,089 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:32:22,297 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:32:22,297 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:32:22,297 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:32:23,520 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:32:23,520 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:32:23,520 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:34:48,748 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:34:48,749 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:34:48,749 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:34:50,943 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:34:50,943 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:34:50,943 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:35:10,298 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:35:10,298 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:35:10,298 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:35:55,040 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:35:55,041 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:35:55,041 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:35:55,899 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:35:55,899 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:35:55,900 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:35:56,778 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:35:56,778 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:35:56,778 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:35:57,848 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:35:57,848 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:35:57,848 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:36:13,737 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:36:13,738 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:36:13,739 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:37:10,554 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:37:10,555 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:37:10,555 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:37:11,403 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:37:11,403 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:37:11,403 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:37:12,040 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:37:12,041 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:37:12,041 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:37:12,744 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:37:12,744 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:37:12,744 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:37:27,590 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:37:27,590 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:37:27,591 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:37:35,933 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:37:35,933 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:37:35,933 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:37:41,867 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:37:41,868 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:37:41,868 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:37:47,973 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 19:38:00,200 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:38:00,200 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:38:00,200 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:38:12,269 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:38:12,269 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:38:12,269 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:38:18,011 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:38:18,012 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:38:18,012 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:38:22,907 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:38:22,907 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:38:22,908 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:38:27,604 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 19:38:52,855 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:38:52,855 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:38:52,855 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:39:01,226 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:39:01,226 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:39:01,226 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:39:05,267 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 19:40:02,503 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:40:02,503 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:40:02,503 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:40:04,214 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:40:04,214 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:40:04,214 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:40:05,807 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:40:05,808 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:40:05,808 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:40:06,461 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:40:06,462 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:40:06,462 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:40:07,758 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:40:07,758 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:40:07,758 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:40:08,989 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:40:08,990 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:40:08,990 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:40:10,250 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:40:10,250 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:40:10,250 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:40:11,833 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:40:11,834 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:40:11,834 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:40:13,052 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:40:13,052 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:40:13,052 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:40:13,854 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:40:13,854 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:40:13,854 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:40:15,193 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:40:15,194 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:40:15,194 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:41:30,211 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:41:30,211 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:41:30,211 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:41:31,574 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:41:31,574 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:41:31,574 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:41:32,429 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:41:32,429 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:41:32,429 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:41:33,258 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:41:33,258 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:41:33,258 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:41:33,927 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:41:33,928 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:41:33,928 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:41:34,873 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:41:34,873 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:41:34,873 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:41:35,447 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:41:35,448 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:41:35,448 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:41:35,986 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:41:35,986 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:41:35,986 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:41:36,554 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:41:36,554 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:41:36,554 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:41:37,110 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:41:37,110 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:41:37,110 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:42:18,030 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:42:18,030 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:42:18,030 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:42:18,039 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 19:42:20,064 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:42:20,065 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:42:20,065 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:42:20,067 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 19:42:21,827 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:42:21,828 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:42:21,828 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:42:21,830 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 19:42:22,850 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:42:22,850 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:42:22,850 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:42:22,854 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 19:42:31,270 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:42:31,270 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:42:31,270 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:42:31,280 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 19:42:33,675 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:42:33,675 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:42:33,675 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:42:33,676 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 19:42:36,206 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:42:36,206 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:42:36,206 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:42:36,207 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 19:42:41,030 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:42:41,030 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:42:41,030 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:42:41,033 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 19:51:22,456 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:51:22,456 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:51:22,457 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:51:26,664 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:51:26,665 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:51:26,665 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:51:28,197 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:51:28,197 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:51:28,197 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:51:58,039 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:51:58,039 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:51:58,040 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:52:01,724 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:52:01,724 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:52:01,724 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:52:10,149 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:52:10,150 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:52:10,150 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:52:10,160 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 19:52:21,665 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:52:21,666 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:52:21,666 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:52:21,670 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 19:52:24,183 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:52:24,183 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:52:24,183 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:52:24,185 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 19:53:45,033 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:53:45,033 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:53:45,033 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:53:45,035 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 19:53:52,357 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:53:52,358 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:53:52,358 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:53:52,361 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 19:54:07,252 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:54:07,252 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:54:07,252 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:54:07,263 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 19:56:04,857 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:56:04,857 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:56:04,857 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:56:04,861 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 19:56:09,648 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:56:09,648 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:56:09,648 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:56:09,650 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 19:56:12,616 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:56:12,616 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:56:12,616 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:56:12,619 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 19:56:15,671 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:56:15,671 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:56:15,671 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:56:15,673 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 19:59:19,540 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:59:19,540 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:59:19,540 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 19:59:19,544 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 19:59:22,718 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 19:59:22,718 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 19:59:22,718 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:01:39,487 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:01:39,488 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:01:39,488 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:01:44,602 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:01:44,602 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:01:44,602 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:02:12,060 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:02:12,060 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:02:12,060 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:02:15,189 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:02:15,189 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:02:15,189 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:02:46,625 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:02:46,625 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:02:46,626 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:02:51,576 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:02:51,576 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:02:51,576 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:02:51,579 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:02:55,124 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:02:55,124 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:02:55,125 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:02:55,127 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:02:59,321 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:02:59,321 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:02:59,321 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:02:59,323 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:03:32,855 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:03:32,855 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:03:32,856 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:03:32,858 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:09:21,021 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:09:21,022 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:09:21,022 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:09:21,035 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:09:24,993 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:09:24,993 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:09:24,993 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:09:24,999 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:09:26,663 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:09:26,663 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:09:26,664 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:09:26,667 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:09:28,156 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:09:28,157 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:09:28,157 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:09:28,162 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:10:22,793 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:10:22,794 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:10:22,794 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:10:22,805 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:10:39,286 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:10:39,286 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:10:39,286 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:10:39,307 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:10:42,193 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:10:42,194 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:10:42,194 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:10:42,202 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:10:44,321 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:10:44,322 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:10:44,322 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:10:44,330 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:10:49,606 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:10:49,609 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:10:49,609 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:10:49,614 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:10:52,321 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:10:52,321 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:10:52,321 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:10:52,329 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:11:45,259 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:11:45,260 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:11:45,260 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:11:45,280 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:11:51,141 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:11:51,141 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:11:51,141 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:11:51,144 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:12:01,162 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:12:01,162 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:12:01,162 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:12:01,173 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:12:03,422 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:12:03,423 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:12:03,423 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:12:03,425 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:12:56,751 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:12:56,752 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:12:56,752 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:12:56,769 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:13:49,514 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:13:49,514 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:13:49,515 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:13:49,533 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:13:53,209 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:13:53,209 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:13:53,209 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:13:53,212 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:14:07,781 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:14:07,781 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:14:07,781 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:14:07,785 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:14:14,934 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:14:14,935 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:14:14,935 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:14:14,936 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:14:59,063 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:14:59,064 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:14:59,064 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:15:53,227 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:15:53,228 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:15:53,228 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:15:59,782 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:15:59,782 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:15:59,782 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:16:11,947 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:16:11,948 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:16:11,948 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:16:11,958 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:16:15,236 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:16:15,237 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:16:15,237 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:16:15,244 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:19:33,163 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:19:33,164 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:19:33,164 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:19:33,181 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:19:35,765 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:19:35,765 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:19:35,765 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:19:35,770 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:20:13,093 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:20:13,093 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:20:13,093 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:20:13,102 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:20:15,682 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:20:15,683 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:20:15,683 - logger - appLogger -DEBUG - Function at line 12 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:20:15,691 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:22:01,185 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:22:01,186 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:22:01,186 - logger - appLogger -DEBUG - Function at line 18 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:22:01,212 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:22:04,457 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:22:04,457 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:22:04,457 - logger - appLogger -DEBUG - Function at line 18 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:22:04,461 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:22:13,596 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:22:13,596 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:22:13,596 - logger - appLogger -DEBUG - Function at line 18 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:22:13,599 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:22:16,107 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:22:16,107 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:22:16,107 - logger - appLogger -DEBUG - Function at line 18 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:22:16,109 - logger - appLogger -DEBUG - Exited  get_products
+2022-09-14 20:22:57,094 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:22:57,094 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:22:57,094 - logger - appLogger -DEBUG - Function at line 18 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:22:58,943 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:22:58,944 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:22:58,944 - logger - appLogger -DEBUG - Function at line 18 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:23:01,112 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:23:01,112 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:23:01,112 - logger - appLogger -DEBUG - Function at line 18 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:26:32,216 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:26:32,216 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:26:32,216 - logger - appLogger -DEBUG - Function at line 18 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
+2022-09-14 20:26:33,851 - logger - appLogger -DEBUG - Entered get_products
+2022-09-14 20:26:33,852 - logger - appLogger -INFO -  Retrieve products from API 
+2022-09-14 20:26:33,852 - logger - appLogger -DEBUG - Function at line 18 in /home/cristian/Documents/GitHub/JU__BC_LAT_AT_01/django_project_ui/project_ui/display/views.py
