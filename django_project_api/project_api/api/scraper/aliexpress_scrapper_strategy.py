@@ -1,5 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
 from api.scraper.scraper_strategy import ScraperStrategy
 
 
@@ -36,6 +37,6 @@ class AliexpressScraperStrategy(ScraperStrategy):
             url = self.get_url(item)
             option = Options()
             option.headless = True
-            driver = webdriver.Chrome(options=option)
+            driver = webdriver.Chrome(ChromeDriverManager().install(), options=option)
             driver.get(url)
             return driver.page_source
