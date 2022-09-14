@@ -1,7 +1,6 @@
 from django.urls import path
-from .views import Product
+from api.rest_api.rest_api import RestApi
 
 urlpatterns = [
-	path('product/<str:prod_name>', Product.as_view())
-
+	path('products/<str:prod_name>', RestApi.get_products, name="products")
 ]
