@@ -19,7 +19,6 @@ class Search(models.Model):
     name = models.CharField(max_length=40) 
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
-    times_searched = models.IntegerField(default=1)
 
     def __str__(self):
         return self.name

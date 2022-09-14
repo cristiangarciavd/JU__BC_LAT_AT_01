@@ -5,8 +5,6 @@ DAYS_TO_UPDATE = 4
 
 class DbManager(object):
     def find_term(self, search_term):
-        #time_threshold = datetime.datetime.now() - datetime.timedelta(DAYS_TO_UPDATE)
-        #search = list(Search.objects.filter(name=search_term).filter(created_at__range = [time_threshold, datetime.datetime.now()]).values())
         search = Search.objects.filter(name=search_term)
         if len(search) > 0:
             return search
@@ -43,7 +41,7 @@ class DbManager(object):
             datos={'message':  'search term not found'}
         return datos
 
-    def create(self, products, search_term):
+    def create(self, products, search_term, origin):
         if len(products) > 0:
             search = Search.objects.create(name=search_term)
             for p in products:
@@ -52,10 +50,9 @@ class DbManager(object):
                     price = p['price'],
                     image_url = p['image_url'],
                     url = p['url'],
-                    search = search
+                    search = search,
+                    origin = origin
                 )
-                #search.add(prod)
-                #prod.search.add(search)
             datos={'message':"success"}
         else:
             datos={'message':  'No items passed'}
