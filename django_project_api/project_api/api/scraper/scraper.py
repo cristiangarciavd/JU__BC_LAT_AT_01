@@ -7,7 +7,7 @@ from api.scraper.aliexpress_scrapper_strategy import AliexpressScraperStrategy
 class Scraper:
 
     def __init__(self):
-        self.strategies = [AmazonScrapperStrategy(), EbayScrapperStrategy(), AliexpressScraperStrategy()]
+        self.strategies = [AmazonScrapperStrategy(), EbayScrapperStrategy(), ]
 
     def scrap_page(self, strategy: ScraperStrategy, product) -> {str: str}:
         result = strategy.read_information(product)

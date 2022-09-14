@@ -85,9 +85,9 @@ WSGI_APPLICATION = 'project_api.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': env('ENGINE'),
-        'NAME': env('NAME'),
-        'USER': env('USER'),
-        'PASSWORD': env('PASSWORD'),
+        'NAME': "postgres",
+        'USER': 'postgres',
+        'PASSWORD': 'pistacho',
         'HOST': env('HOST'),
         'PORT': env('PORT'),
     }
