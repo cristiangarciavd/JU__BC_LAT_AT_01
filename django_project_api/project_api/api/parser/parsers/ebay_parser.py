@@ -28,6 +28,8 @@ class EbayParser(Parser):
                     price = price.replace('MX', '')
                     price = price.replace('$', '')
                     price = price.replace(',', '')
+                    price = price.replace('N', '')
+                    price = price.replace('COP', '')
                     price = price.replace('MEX', '')
                     price = price.replace('ARS', '')
                     price=(price.split())[0]
@@ -54,6 +56,8 @@ class EbayParser(Parser):
                 price = price.replace('MX', '')
                 price = price.replace('$', '')
                 price = price.replace(',', '')
+                price = price.replace('N', '')
+                price = price.replace('COP', '')
                 price = price.replace('MEX', '')
                 price = price.replace('ARS', '')
                 price=(price.split())[0]

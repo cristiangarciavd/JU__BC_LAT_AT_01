@@ -23,5 +23,3 @@ chromedriver-binary-auto==0.2.0
 
 psycopg2==2.9.3
 django-environ==0.9.0
-
--e git+https://github.com/cristiangarciavd/JU__BC_LAT_AT_01.git@1e5ac5d0addd35587659ebb3d2a7da0c7bb6ac76#egg=api_package&subdirectory=django_project_api/project_api

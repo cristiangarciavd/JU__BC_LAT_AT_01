@@ -28,3 +28,5 @@ You should use the following command:
 ## To install everyone else aditions:
 Use the command:
 'pip install -r requirements.txt'
+At project_api/ file, use command:
+'pip install -e .' to run setup file
