@@ -1,4 +1,3 @@
-import re
 from api.scraper.scraper import Scraper
 from api.parser.parser_factory import ParserFactory
 
