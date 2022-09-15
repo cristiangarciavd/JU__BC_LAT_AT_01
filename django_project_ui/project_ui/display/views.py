@@ -25,8 +25,6 @@ class Receiver:
         if request.GET.get('search_product'):
             search_product=request.GET.get('search_product')
             url = 'http://127.0.0.1:8000/api/product/'+search_product
-            print('this' + search_product)
-            print('usr' + url)
             response = requests.get(url).json()
         else:
             response = None
