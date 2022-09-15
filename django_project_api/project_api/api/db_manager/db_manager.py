@@ -1,4 +1,4 @@
-from .project_api.api.models import Product, Search
+from api.models import Product, Search
 import datetime
 
 DAYS_TO_UPDATE = 4
@@ -12,7 +12,6 @@ class DbManager(object):
             return False
 
     def term_up_today(self, search):
-        print("term_up_today ", type(search))
         time_threshold = datetime.datetime.now() - datetime.timedelta(DAYS_TO_UPDATE)
         search = list(search.filter(created_at__range = [time_threshold, datetime.datetime.now()]).values())
         if len(search) > 0:
@@ -21,12 +20,27 @@ class DbManager(object):
             return False
 
     def find_products(self, search):
+        all_products=[]
+        ebay_products=[]
+        amazon_products=[]
+        ali_products=[]
         if search:
             if len(search) > 0:
                 products = list(Product.objects.filter(search=search[0]['id']).values())
-                datos={'message':"success", 'products': products}
+                
+                for p in products:
+                    if p['origin'] == 'Ebay':
+                        ebay_products.append({'product':p['product'],'price':p['price'], 'link_img':p['link_img'], 'link_url': p['link_url'], 'origin':p['origin']})
+                    elif p['origin'] == 'Aliexpress':
+                        ali_products.append({'product':p['product'],'price':p['price'], 'link_img':p['link_img'], 'link_url': p['link_url'], 'origin':p['origin']})
+                    else:
+                        amazon_products.append({'product':p['product'],'price':p['price'], 'link_img':p['link_img'], 'link_url': p['link_url'], 'origin':p['origin']})
+                all_products.append(amazon_products)
+                all_products.append(ebay_products)
+                all_products.append(ali_products)
+                datos = all_products
             else:
-                datos={'message':'products not found'}
+                datos=all_products
             return datos
         else:
             datos={'message': 'Error, no argument passed'}
@@ -41,17 +55,22 @@ class DbManager(object):
             datos={'message':  'search term not found'}
         return datos
 
-    def create(self, products, search_term, origin):
+    def create(self, products, search_term):
+        all_products = []
         if len(products) > 0:
-            search = Search.objects.create(name=search_term)
             for p in products:
+                all_products.extend(p)
+        if len(all_products) > 0:
+            search = Search.objects.create(name=search_term)
+            print(all_products)
+            for p in all_products:
                 prod = Product.objects.create(
-                    name = p['name'],
-                    price = p['price'],
-                    image_url = p['image_url'],
-                    url = p['url'],
-                    search = search,
-                    origin = origin
+                    product = p['product'],
+                    price = (p['price']),
+                    link_img = p['link_img'],
+                    link_url = p['link_url'],
+                    origin = p['origin'],
+                    search = search
                 )
             datos={'message':"success"}
         else:

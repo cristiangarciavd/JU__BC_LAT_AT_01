@@ -1,6 +1,7 @@
 import re
 from api.scraper.scraper import Scraper
 from api.parser.parser_factory import ParserFactory
+from api.db_manager.db_manager import DbManager
 
 class DataCollector():
     def __init__(self):
@@ -33,8 +34,26 @@ class DataCollector():
         return self.__sorted_products 
 
     def collect(self, product_name):
-        self.__scrap_html_contents(product_name)
-        self.__parse_data()
+        db_manager = DbManager()
+        search = db_manager.find_term(product_name)
+        if search:
+            search = db_manager.term_up_today(search)
+            if search:
+                self.__pages_products = db_manager.find_products(search)
+            else:
+                print('+++++++*********++++**++*+MUERTEEEEEEEE')
+                db_manager.delete_search(product_name)
+                self.__scrap_html_contents(product_name)
+                self.__parse_data()
+                self.sort_by_price()
+                products = self.top_x_products(5)
+                db_manager.create(products, product_name)
+        else:
+            self.__scrap_html_contents(product_name)
+            self.__parse_data()
+            self.sort_by_price()
+            products = self.top_x_products(5)
+            db_manager.create(products, product_name)
         # for products in self.__pages_products: #To do: Must implement price validation in parsers files
         #     self.price_validation(products)
 
