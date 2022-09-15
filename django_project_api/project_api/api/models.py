@@ -10,7 +10,7 @@ class Product(models.Model):
     image_url = models.URLField(max_length=80)
     url = models.URLField(max_length=80)
     search = models.ForeignKey('Search', on_delete=models.CASCADE)
-    origin = models.CharField(max_length=80)
+    origin = models.CharField(max_length=80, default='')
     
     def __str__(self):
         return self.name
