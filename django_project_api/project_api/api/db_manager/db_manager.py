@@ -1,4 +1,5 @@
 from api.models import Product, Search
+from django.utils import timezone
 import datetime
 
 DAYS_TO_UPDATE = 4
@@ -12,8 +13,8 @@ class DbManager(object):
             return False
 
     def term_up_today(self, search):
-        time_threshold = datetime.datetime.now() - datetime.timedelta(DAYS_TO_UPDATE)
-        search = list(search.filter(created_at__range = [time_threshold, datetime.datetime.now()]).values())
+        time_threshold = datetime.datetime.now(tz=timezone.utc) - datetime.timedelta(DAYS_TO_UPDATE)
+        search = list(search.filter(created_at__range = [time_threshold, datetime.datetime.now(tz=timezone.utc)]).values())
         if len(search) > 0:
             return search
         else:
@@ -35,9 +36,12 @@ class DbManager(object):
                         ali_products.append({'product':p['product'],'price':p['price'], 'link_img':p['link_img'], 'link_url': p['link_url'], 'origin':p['origin']})
                     else:
                         amazon_products.append({'product':p['product'],'price':p['price'], 'link_img':p['link_img'], 'link_url': p['link_url'], 'origin':p['origin']})
-                all_products.append(amazon_products)
-                all_products.append(ebay_products)
-                all_products.append(ali_products)
+                if len(amazon_products) > 0:
+                    all_products.append(amazon_products)
+                if len(ebay_products) > 0:
+                    all_products.append(ebay_products)
+                if len(ali_products) > 0:
+                    all_products.append(ali_products)
                 datos = all_products
             else:
                 datos=all_products
@@ -77,3 +81,4 @@ class DbManager(object):
             datos={'message':  'No items passed'}
         return datos
         
+

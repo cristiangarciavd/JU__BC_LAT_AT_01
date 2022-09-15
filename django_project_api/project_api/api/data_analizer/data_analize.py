@@ -68,7 +68,7 @@ class DataCollector():
             if x == 'all':
                 return self.__sorted_products
             elif x > len(products) and x > 0:
-                print(self.pages[idx] + " store have " + str(len(products)) + " products to offer")
+                #print(self.pages[idx] + " store have " + str(len(products)) + " products to offer")
                 try:
                     for idx in range(x):
                         top_page_products.append(products[idx])
