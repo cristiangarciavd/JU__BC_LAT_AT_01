@@ -1,10 +1,10 @@
 from api.parser.parser import Parser
 from bs4 import BeautifulSoup
-# from logger.logger import *
+from logger.logger import *
 
 class AmazonParser(Parser):
     
-    # @wrap(entering, exiting)
+    @wrap(entering, exiting)
     def parse(self, page):
         """ Parse information from Amazon HTML """
         soup = BeautifulSoup(page, "html.parser")
@@ -20,7 +20,7 @@ class AmazonParser(Parser):
             for item in all_items:  
 
                 try:
-                    product = (item.parent.parent.parent.find(class_="a-size-base-plus a-color-base a-text-normal")).get_text()
+                    product = (item.parent.parent.parent.find(attrs= {"class" : ["a-size-base-plus a-color-base a-text-normal","a-size-mini a-color-base a-text-normal","a-size-base-mini a-color-base a-text-normal","a-size-base a-color-base a-text-normal", "a-size-medium a-color-base a-text-normal"]})).get_text()
                     price = str(item.parent.parent.parent.find("span", {'class' : "a-price-whole"}))+str(item.find(class_="a-price-fraction"))
                     price = price.replace('<span class="a-price-decimal">', '')
                     price = price.replace('<span class="a-price-whole">', '')
@@ -44,7 +44,7 @@ class AmazonParser(Parser):
         for item in all_items:  
 
             try:
-                product = (item.find(attrs= {"class" : ["a-size-base-plus a-color-base a-text-normal", "a-size-medium a-color-base a-text-normal"]})).get_text()
+                product = (item.find(attrs= {"class" : ["a-size-base a-color-base a-text-normal", "a-size-mini a-color-base a-text-normal", "a-size-base-mini a-color-base a-text-normal","a-size-base-plus a-color-base a-text-normal", "a-size-medium a-color-base a-text-normal"]})).get_text()
                 price = str(item.find("span", {'class' : "a-price-whole"}))+str(item.find(class_="a-price-fraction"))
                 price = price.replace('<span class="a-price-decimal">', '')
                 price = price.replace('<span class="a-price-whole">', '')

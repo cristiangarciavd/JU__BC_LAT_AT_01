@@ -66,7 +66,6 @@ class DbManager(object):
                 all_products.extend(p)
         if len(all_products) > 0:
             search = Search.objects.create(name=search_term)
-            print(all_products)
             for p in all_products:
                 prod = Product.objects.create(
                     product = p['product'],

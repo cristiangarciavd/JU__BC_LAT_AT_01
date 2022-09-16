@@ -2,14 +2,16 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from api.scraper.scraper_strategy import ScraperStrategy
-
+from logger.logger import *
 
 class AliexpressScraperStrategy(ScraperStrategy):
 
     def __str__(self):
         return "aliexpress"
 
+    # @wrap(entering, exiting)
     def get_url(self, item):
+        """Setting Aliexpress url"""
         splitted = item.split()
         if len(splitted) == 1:
             url = "https://es.aliexpress.com/af/" + item + ".html?d=y&origin=n&SearchText=" + \
@@ -30,7 +32,9 @@ class AliexpressScraperStrategy(ScraperStrategy):
                   link2 + "&catId=0&spm=a2g0o.productlist.1000002.0&initiative_id=SB_20220830102312"
         return url
 
+    # @wrap(entering, exiting)
     def read_information(self, item):
+        """Scrapping Aliexpress"""
         if item == '':
             raise ValueError(f"Invalid item: Please digit a valid item")
         else:

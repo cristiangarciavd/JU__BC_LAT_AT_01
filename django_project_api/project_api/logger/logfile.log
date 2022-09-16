@@ -2,3 +2,1603 @@
 2022-09-15 00:33:17,423 - logger - appLogger -INFO -  Parse information from Aliexpress HTML 
 2022-09-15 00:54:08,926 - logger - appLogger -INFO -  Parse information from Aliexpress HTML 
 2022-09-15 18:51:26,754 - logger - appLogger -INFO -  Parse information from Aliexpress HTML 
+2022-09-15 20:56:36,876 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 20:56:36,936 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 20:56:36,992 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 20:56:36,994 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 20:56:36,996 - logger - appLogger -INFO - Using scrappers
+2022-09-15 20:56:38,493 - logger - appLogger -INFO - Using scrappers
+2022-09-15 20:56:38,498 - logger - appLogger -INFO - None
+2022-09-15 20:56:38,501 - logger - appLogger -INFO - None
+2022-09-15 20:56:39,718 - logger - appLogger -INFO -  Using parsers
+2022-09-15 20:56:39,719 - logger - appLogger -INFO - Generating parsers
+2022-09-15 20:56:39,721 - logger - appLogger -INFO - Getting parsers
+2022-09-15 20:56:39,725 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 20:56:40,045 - logger - appLogger -INFO - Generating parsers
+2022-09-15 20:56:40,046 - logger - appLogger -INFO - Getting parsers
+2022-09-15 20:56:40,050 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 20:56:40,393 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 20:56:40,395 - logger - appLogger -INFO - Using scrappers
+2022-09-15 20:56:42,541 - logger - appLogger -INFO - Using scrappers
+2022-09-15 20:56:42,546 - logger - appLogger -INFO - None
+2022-09-15 20:56:42,549 - logger - appLogger -INFO - None
+2022-09-15 20:56:43,984 - logger - appLogger -INFO -  Using parsers
+2022-09-15 20:56:43,985 - logger - appLogger -INFO - Generating parsers
+2022-09-15 20:56:43,987 - logger - appLogger -INFO - Getting parsers
+2022-09-15 20:56:43,990 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 20:56:44,335 - logger - appLogger -INFO - Generating parsers
+2022-09-15 20:56:44,336 - logger - appLogger -INFO - Getting parsers
+2022-09-15 20:56:44,341 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 20:56:44,676 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 20:56:44,678 - logger - appLogger -INFO - Using scrappers
+2022-09-15 20:56:46,281 - logger - appLogger -INFO - Using scrappers
+2022-09-15 20:56:46,283 - logger - appLogger -INFO - None
+2022-09-15 20:56:46,284 - logger - appLogger -INFO - None
+2022-09-15 20:56:47,548 - logger - appLogger -INFO -  Using parsers
+2022-09-15 20:56:47,552 - logger - appLogger -INFO - Generating parsers
+2022-09-15 20:56:47,556 - logger - appLogger -INFO - Getting parsers
+2022-09-15 20:56:47,563 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 20:56:47,873 - logger - appLogger -INFO - Generating parsers
+2022-09-15 20:56:47,875 - logger - appLogger -INFO - Getting parsers
+2022-09-15 20:56:47,879 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 20:56:48,164 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 20:56:48,166 - logger - appLogger -INFO - Using scrappers
+2022-09-15 20:56:49,777 - logger - appLogger -INFO - Using scrappers
+2022-09-15 20:56:49,781 - logger - appLogger -INFO - None
+2022-09-15 20:56:49,785 - logger - appLogger -INFO - None
+2022-09-15 20:56:50,893 - logger - appLogger -INFO -  Using parsers
+2022-09-15 20:56:50,897 - logger - appLogger -INFO - Generating parsers
+2022-09-15 20:56:50,900 - logger - appLogger -INFO - Getting parsers
+2022-09-15 20:56:50,908 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 20:56:51,305 - logger - appLogger -INFO - Generating parsers
+2022-09-15 20:56:51,307 - logger - appLogger -INFO - Getting parsers
+2022-09-15 20:56:51,312 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 20:56:51,601 - logger - appLogger -INFO - Sorting by price
+2022-09-15 20:56:51,604 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 20:56:51,785 - logger - appLogger -INFO - Sorting by price
+2022-09-15 20:56:51,787 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 20:58:40,886 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 20:58:40,891 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 20:58:40,953 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 20:58:40,954 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 20:58:40,955 - logger - appLogger -INFO - Using scrappers
+2022-09-15 20:58:42,870 - logger - appLogger -INFO - Using scrappers
+2022-09-15 20:58:42,872 - logger - appLogger -INFO - None
+2022-09-15 20:58:42,874 - logger - appLogger -INFO - None
+2022-09-15 20:58:43,961 - logger - appLogger -INFO -  Using parsers
+2022-09-15 20:58:43,963 - logger - appLogger -INFO - Generating parsers
+2022-09-15 20:58:43,965 - logger - appLogger -INFO - Getting parsers
+2022-09-15 20:58:43,969 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 20:58:44,336 - logger - appLogger -INFO - Generating parsers
+2022-09-15 20:58:44,338 - logger - appLogger -INFO - Getting parsers
+2022-09-15 20:58:44,341 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:00:38,782 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:01:55,485 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:01:55,486 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:01:55,542 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:01:55,543 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:01:55,546 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:01:57,420 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:01:57,424 - logger - appLogger -INFO - None
+2022-09-15 21:01:57,429 - logger - appLogger -INFO - None
+2022-09-15 21:01:58,663 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:01:58,666 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:01:58,668 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:01:58,672 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:01:58,933 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:01:58,935 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:01:58,941 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:01:59,318 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:01:59,322 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:01:59,375 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:01:59,380 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:02:38,555 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:02:38,556 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:02:38,617 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:02:38,619 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:02:38,621 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:02:41,294 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:02:41,296 - logger - appLogger -INFO - None
+2022-09-15 21:02:41,298 - logger - appLogger -INFO - None
+2022-09-15 21:02:42,529 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:02:42,531 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:02:42,533 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:02:42,538 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:02:42,761 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:02:42,762 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:02:42,766 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:02:43,115 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:02:43,116 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:02:46,441 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:02:46,443 - logger - appLogger -INFO - None
+2022-09-15 21:02:46,446 - logger - appLogger -INFO - None
+2022-09-15 21:02:47,760 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:02:47,763 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:02:47,766 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:02:47,773 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:02:48,036 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:02:48,037 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:02:48,040 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:02:48,423 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:02:48,426 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:02:48,476 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:02:48,480 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:09:39,915 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:09:39,918 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:09:39,972 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:09:39,973 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:09:39,975 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:09:41,409 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:09:41,411 - logger - appLogger -INFO - None
+2022-09-15 21:09:41,414 - logger - appLogger -INFO - None
+2022-09-15 21:09:48,674 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:09:48,678 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:09:48,681 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:09:48,687 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:09:48,735 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:09:48,736 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:09:48,740 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:09:49,072 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:09:49,073 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:09:50,120 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:09:50,124 - logger - appLogger -INFO - None
+2022-09-15 21:09:50,128 - logger - appLogger -INFO - None
+2022-09-15 21:09:56,612 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:09:56,615 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:09:56,618 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:09:56,622 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:09:56,661 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:09:56,662 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:09:56,667 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:09:56,942 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:09:56,944 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:09:58,335 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:09:58,337 - logger - appLogger -INFO - None
+2022-09-15 21:09:58,338 - logger - appLogger -INFO - None
+2022-09-15 21:10:04,928 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:10:04,929 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:10:04,930 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:10:04,936 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:10:04,975 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:10:04,977 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:10:04,981 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:10:05,286 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:10:05,288 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:10:06,933 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:10:06,934 - logger - appLogger -INFO - None
+2022-09-15 21:10:06,936 - logger - appLogger -INFO - None
+2022-09-15 21:10:13,338 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:10:13,340 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:10:13,342 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:10:13,346 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:10:13,447 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:10:13,450 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:10:13,456 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:10:13,806 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:10:13,808 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:10:15,224 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:10:15,226 - logger - appLogger -INFO - None
+2022-09-15 21:10:15,228 - logger - appLogger -INFO - None
+2022-09-15 21:10:21,621 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:10:21,624 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:10:21,626 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:10:21,631 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:10:21,682 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:10:21,683 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:10:21,689 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:10:21,983 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:10:21,986 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:10:23,400 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:10:23,407 - logger - appLogger -INFO - None
+2022-09-15 21:10:23,411 - logger - appLogger -INFO - None
+2022-09-15 21:10:29,838 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:10:29,840 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:10:29,841 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:10:29,845 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:10:29,925 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:10:29,926 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:10:29,932 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:10:30,251 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:10:30,253 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:10:31,304 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:10:31,306 - logger - appLogger -INFO - None
+2022-09-15 21:10:31,308 - logger - appLogger -INFO - None
+2022-09-15 21:10:37,763 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:10:37,768 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:10:37,770 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:10:37,777 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:10:37,847 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:10:37,850 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:10:37,856 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:10:38,419 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:10:38,421 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:10:39,440 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:10:39,444 - logger - appLogger -INFO - None
+2022-09-15 21:10:39,449 - logger - appLogger -INFO - None
+2022-09-15 21:10:46,039 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:10:46,041 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:10:46,042 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:10:46,046 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:10:46,091 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:10:46,092 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:10:46,097 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:10:46,499 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:10:46,501 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:10:47,545 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:10:47,548 - logger - appLogger -INFO - None
+2022-09-15 21:10:47,551 - logger - appLogger -INFO - None
+2022-09-15 21:10:53,987 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:10:53,990 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:10:53,993 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:10:54,004 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:10:54,047 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:10:54,048 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:10:54,052 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:10:54,333 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:10:54,335 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:10:55,736 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:10:55,739 - logger - appLogger -INFO - None
+2022-09-15 21:10:55,742 - logger - appLogger -INFO - None
+2022-09-15 21:11:02,507 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:11:02,508 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:11:02,510 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:11:02,514 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:11:02,550 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:11:02,552 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:11:02,556 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:11:02,883 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:11:02,885 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:11:04,034 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:11:04,035 - logger - appLogger -INFO - None
+2022-09-15 21:11:04,037 - logger - appLogger -INFO - None
+2022-09-15 21:11:10,372 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:11:10,375 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:11:10,377 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:11:10,383 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:11:10,426 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:11:10,428 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:11:10,432 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:11:10,750 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:11:10,752 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:11:12,065 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:11:12,069 - logger - appLogger -INFO - None
+2022-09-15 21:11:12,073 - logger - appLogger -INFO - None
+2022-09-15 21:11:18,524 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:11:18,527 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:11:18,529 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:11:18,534 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:11:18,576 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:11:18,578 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:11:18,583 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:11:27,437 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:11:27,451 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:11:28,726 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:11:28,732 - logger - appLogger -INFO - None
+2022-09-15 21:11:28,738 - logger - appLogger -INFO - None
+2022-09-15 21:13:17,814 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:13:17,817 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:13:17,872 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:13:17,873 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:13:17,875 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:13:19,141 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:13:19,143 - logger - appLogger -INFO - None
+2022-09-15 21:13:19,145 - logger - appLogger -INFO - None
+2022-09-15 21:13:20,685 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:13:20,687 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:13:20,689 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:13:20,694 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:13:20,889 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:13:20,891 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:13:20,896 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:13:21,223 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:13:21,225 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:13:22,346 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:13:22,348 - logger - appLogger -INFO - None
+2022-09-15 21:13:22,350 - logger - appLogger -INFO - None
+2022-09-15 21:13:23,576 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:13:23,579 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:13:23,583 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:13:23,591 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:13:23,795 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:13:23,797 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:13:23,802 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:13:24,085 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:13:24,086 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:13:25,183 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:13:25,188 - logger - appLogger -INFO - None
+2022-09-15 21:13:25,193 - logger - appLogger -INFO - None
+2022-09-15 21:13:26,473 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:13:26,475 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:13:26,478 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:13:26,486 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:13:26,815 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:13:26,819 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:13:26,827 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:13:27,179 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:13:27,184 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:13:27,280 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:13:27,283 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:13:43,163 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:13:43,167 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:13:43,223 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:13:43,225 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:13:43,227 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:13:45,379 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:13:45,384 - logger - appLogger -INFO - None
+2022-09-15 21:13:45,388 - logger - appLogger -INFO - None
+2022-09-15 21:13:46,616 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:13:46,620 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:13:46,622 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:13:46,626 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:13:46,794 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:13:46,796 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:13:46,802 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:13:47,199 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:13:47,204 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:13:47,230 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:13:47,234 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:14:15,567 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:14:15,570 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:14:15,627 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:14:15,628 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:14:15,630 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:14:17,464 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:14:17,470 - logger - appLogger -INFO - None
+2022-09-15 21:14:17,472 - logger - appLogger -INFO - None
+2022-09-15 21:14:18,999 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:14:19,002 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:14:19,004 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:14:19,010 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:14:19,458 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:14:19,460 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:14:19,465 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:14:19,761 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:14:19,765 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:14:19,941 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:14:19,945 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:14:41,704 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:14:41,706 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:14:41,763 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:14:41,764 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:14:41,767 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:14:43,458 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:14:43,462 - logger - appLogger -INFO - None
+2022-09-15 21:14:43,467 - logger - appLogger -INFO - None
+2022-09-15 21:15:06,497 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:15:06,502 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:15:06,505 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:15:06,515 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:15:06,781 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:15:06,783 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:15:06,787 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:15:07,155 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:15:07,158 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:15:07,203 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:15:07,206 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:15:53,332 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:15:53,335 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:15:53,389 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:15:53,391 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:15:53,393 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:15:54,878 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:15:54,883 - logger - appLogger -INFO - None
+2022-09-15 21:15:54,887 - logger - appLogger -INFO - None
+2022-09-15 21:15:56,344 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:15:56,346 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:15:56,348 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:15:56,352 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:15:56,657 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:15:56,659 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:15:56,664 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:15:56,977 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:15:56,979 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:15:58,149 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:15:58,151 - logger - appLogger -INFO - None
+2022-09-15 21:15:58,154 - logger - appLogger -INFO - None
+2022-09-15 21:15:59,486 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:15:59,490 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:15:59,493 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:15:59,501 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:15:59,718 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:15:59,720 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:15:59,724 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:16:00,071 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:16:00,072 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:16:01,409 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:16:01,411 - logger - appLogger -INFO - None
+2022-09-15 21:16:01,412 - logger - appLogger -INFO - None
+2022-09-15 21:16:02,799 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:16:02,802 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:16:02,805 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:16:02,811 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:16:03,041 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:16:03,042 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:16:03,046 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:16:03,372 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:16:03,374 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:16:04,619 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:16:04,621 - logger - appLogger -INFO - None
+2022-09-15 21:16:04,623 - logger - appLogger -INFO - None
+2022-09-15 21:16:06,113 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:16:06,115 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:16:06,118 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:16:06,185 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:16:06,532 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:16:06,539 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:16:06,551 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:16:07,110 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:16:07,113 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:16:08,459 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:16:08,461 - logger - appLogger -INFO - None
+2022-09-15 21:16:08,463 - logger - appLogger -INFO - None
+2022-09-15 21:16:09,926 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:16:09,928 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:16:09,930 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:16:09,936 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:16:10,147 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:16:10,149 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:16:10,154 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:16:10,483 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:16:10,485 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:16:11,609 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:16:11,610 - logger - appLogger -INFO - None
+2022-09-15 21:16:11,612 - logger - appLogger -INFO - None
+2022-09-15 21:16:12,960 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:16:12,962 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:16:12,964 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:16:12,970 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:16:13,188 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:16:13,189 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:16:13,198 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:16:13,518 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:16:13,519 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:16:14,650 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:16:14,652 - logger - appLogger -INFO - None
+2022-09-15 21:16:14,654 - logger - appLogger -INFO - None
+2022-09-15 21:16:16,461 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:16:16,464 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:16:16,468 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:16:16,528 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:16:16,754 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:16:16,756 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:16:16,760 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:16:17,038 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:16:17,040 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:16:18,131 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:16:18,132 - logger - appLogger -INFO - None
+2022-09-15 21:16:18,135 - logger - appLogger -INFO - None
+2022-09-15 21:16:19,526 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:16:19,528 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:16:19,529 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:16:19,533 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:16:19,785 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:16:19,804 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:16:19,818 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:16:20,189 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:16:20,192 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:16:21,531 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:16:21,534 - logger - appLogger -INFO - None
+2022-09-15 21:16:21,536 - logger - appLogger -INFO - None
+2022-09-15 21:16:22,898 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:16:22,900 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:16:22,904 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:16:22,908 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:16:23,225 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:16:23,227 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:16:23,234 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:16:23,652 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:16:23,654 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:16:24,807 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:16:24,809 - logger - appLogger -INFO - None
+2022-09-15 21:16:24,811 - logger - appLogger -INFO - None
+2022-09-15 21:16:26,104 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:16:26,107 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:16:26,108 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:16:26,113 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:16:26,318 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:16:26,320 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:16:26,325 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:16:26,605 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:16:26,606 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:16:27,976 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:16:27,978 - logger - appLogger -INFO - None
+2022-09-15 21:16:27,979 - logger - appLogger -INFO - None
+2022-09-15 21:16:29,349 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:16:29,351 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:16:29,354 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:16:29,359 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:16:29,657 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:16:29,660 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:16:29,667 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:16:30,149 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:16:30,151 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:16:31,332 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:16:31,335 - logger - appLogger -INFO - None
+2022-09-15 21:16:31,336 - logger - appLogger -INFO - None
+2022-09-15 21:16:33,033 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:16:33,037 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:16:33,041 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:16:33,046 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:16:33,261 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:16:33,262 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:16:33,267 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:16:33,593 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:16:33,594 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:16:34,827 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:16:34,831 - logger - appLogger -INFO - None
+2022-09-15 21:16:34,836 - logger - appLogger -INFO - None
+2022-09-15 21:16:36,402 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:16:36,406 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:16:36,409 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:16:36,416 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:16:36,642 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:16:36,644 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:16:36,648 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:16:36,934 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:16:36,936 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:16:38,413 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:16:38,416 - logger - appLogger -INFO - None
+2022-09-15 21:16:38,419 - logger - appLogger -INFO - None
+2022-09-15 21:16:56,705 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:16:56,707 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:16:56,708 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:16:56,712 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:16:56,965 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:16:56,967 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:16:56,971 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:16:57,243 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:16:57,245 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:17:14,820 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:17:14,822 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:17:14,888 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:17:14,890 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:17:14,891 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:17:16,048 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:17:16,051 - logger - appLogger -INFO - None
+2022-09-15 21:17:16,053 - logger - appLogger -INFO - None
+2022-09-15 21:17:17,310 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:17:17,312 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:17:17,315 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:17:17,324 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:17:17,693 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:17:17,695 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:17:17,701 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:17:18,006 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:17:18,020 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:17:18,105 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:17:18,108 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:17:24,127 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:17:24,129 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:17:24,206 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:17:24,208 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:17:24,210 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:17:25,347 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:17:25,349 - logger - appLogger -INFO - None
+2022-09-15 21:17:25,351 - logger - appLogger -INFO - None
+2022-09-15 21:17:26,580 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:17:26,583 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:17:26,588 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:17:26,596 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:17:26,832 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:17:26,835 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:17:26,840 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:17:27,221 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:17:27,225 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:17:27,272 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:17:27,276 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:27:51,845 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:27:51,848 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:27:51,921 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:27:51,923 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:27:51,927 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:27:53,217 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:27:53,220 - logger - appLogger -INFO - None
+2022-09-15 21:27:53,221 - logger - appLogger -INFO - None
+2022-09-15 21:27:54,300 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:27:54,302 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:27:54,305 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:27:54,310 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:27:54,565 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:27:54,567 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:27:54,575 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:27:54,995 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:27:54,997 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:27:56,294 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:27:56,298 - logger - appLogger -INFO - None
+2022-09-15 21:27:56,301 - logger - appLogger -INFO - None
+2022-09-15 21:27:57,331 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:27:57,332 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:27:57,334 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:27:57,340 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:27:57,618 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:27:57,620 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:27:57,626 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:27:57,947 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:27:57,949 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:27:59,207 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:27:59,209 - logger - appLogger -INFO - None
+2022-09-15 21:27:59,211 - logger - appLogger -INFO - None
+2022-09-15 21:28:00,469 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:28:00,471 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:28:00,473 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:28:00,477 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:28:00,810 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:28:00,812 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:28:00,816 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:28:01,151 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:28:01,153 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:28:02,410 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:28:02,412 - logger - appLogger -INFO - None
+2022-09-15 21:28:02,415 - logger - appLogger -INFO - None
+2022-09-15 21:28:03,598 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:28:03,600 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:28:03,601 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:28:03,605 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:28:03,922 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:28:03,923 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:28:03,928 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:28:04,231 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:28:04,233 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:28:05,344 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:28:05,346 - logger - appLogger -INFO - None
+2022-09-15 21:28:05,347 - logger - appLogger -INFO - None
+2022-09-15 21:28:29,737 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:28:29,739 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:28:29,797 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:28:29,798 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:28:29,801 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:28:31,166 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:28:31,168 - logger - appLogger -INFO - None
+2022-09-15 21:28:31,170 - logger - appLogger -INFO - None
+2022-09-15 21:28:32,880 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:28:32,881 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:28:32,883 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:28:32,888 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:28:33,159 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:28:33,161 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:28:33,165 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:28:33,527 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:28:33,531 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:28:33,549 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:28:33,552 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:37:24,174 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:37:24,176 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:37:24,340 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:37:24,342 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:37:24,344 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:37:26,598 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:37:26,601 - logger - appLogger -INFO - None
+2022-09-15 21:37:26,603 - logger - appLogger -INFO - None
+2022-09-15 21:37:27,827 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:37:27,831 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:37:27,835 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:37:27,847 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:37:27,935 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:37:27,936 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:37:27,941 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:37:28,359 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:37:28,363 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:37:28,380 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:37:28,383 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:39:55,024 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:39:55,026 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:39:55,080 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:39:55,082 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:39:55,083 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:39:59,374 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:39:59,380 - logger - appLogger -INFO - None
+2022-09-15 21:39:59,384 - logger - appLogger -INFO - None
+2022-09-15 21:40:24,277 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:40:24,280 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:40:24,281 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:40:24,286 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:40:24,569 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:40:24,570 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:40:24,574 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:40:24,901 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:40:24,905 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:40:25,024 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:40:25,032 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:40:44,245 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:40:44,247 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:40:44,301 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:40:44,302 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:40:44,304 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:40:48,001 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:40:48,004 - logger - appLogger -INFO - None
+2022-09-15 21:40:48,009 - logger - appLogger -INFO - None
+2022-09-15 21:40:52,430 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:40:52,432 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:40:52,434 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:40:52,439 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:40:52,618 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:40:52,619 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:40:52,624 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:40:52,923 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:40:52,926 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:40:52,943 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:40:52,947 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:42:00,181 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:42:00,184 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:42:00,254 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:42:00,256 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:42:00,258 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:42:02,842 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:42:02,844 - logger - appLogger -INFO - None
+2022-09-15 21:42:02,846 - logger - appLogger -INFO - None
+2022-09-15 21:42:03,759 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:42:03,761 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:42:03,763 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:42:03,767 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:42:03,900 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:42:03,903 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:42:03,908 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:42:04,325 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:42:04,329 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:42:04,365 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:42:04,368 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:42:12,117 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:42:12,118 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:42:12,191 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:42:12,194 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:42:12,196 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:42:15,022 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:42:15,024 - logger - appLogger -INFO - None
+2022-09-15 21:42:15,025 - logger - appLogger -INFO - None
+2022-09-15 21:42:16,943 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:42:16,945 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:42:16,947 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:42:16,951 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:42:17,148 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:42:17,150 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:42:17,155 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:42:17,544 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:42:17,549 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:42:17,614 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:42:17,620 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:42:29,156 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:42:29,159 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:42:29,312 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:42:29,313 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:42:29,315 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:42:32,762 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:42:32,764 - logger - appLogger -INFO - None
+2022-09-15 21:42:32,767 - logger - appLogger -INFO - None
+2022-09-15 21:42:34,086 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:42:34,087 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:42:34,091 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:42:34,096 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:42:34,586 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:42:34,589 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:42:34,597 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:42:35,204 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:42:35,209 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:42:35,250 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:42:35,253 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:42:52,570 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:42:52,574 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:42:52,633 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:42:52,634 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:42:52,636 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:42:55,189 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:42:55,191 - logger - appLogger -INFO - None
+2022-09-15 21:42:55,193 - logger - appLogger -INFO - None
+2022-09-15 21:42:57,806 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:42:57,808 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:42:57,810 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:42:57,816 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:42:58,087 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:42:58,088 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:42:58,094 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:42:58,388 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:42:58,392 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:42:58,397 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:42:58,400 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:43:12,544 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:43:12,545 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:43:12,601 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:43:12,603 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:43:12,605 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:43:15,002 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:43:15,005 - logger - appLogger -INFO - None
+2022-09-15 21:43:15,007 - logger - appLogger -INFO - None
+2022-09-15 21:43:17,808 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:43:17,809 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:43:17,812 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:43:17,818 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:43:18,078 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:43:18,080 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:43:18,085 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:43:18,467 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:43:18,470 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:43:18,498 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:43:18,501 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:44:35,333 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:44:35,336 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:44:35,404 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:44:35,406 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:44:35,408 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:44:38,916 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:44:38,918 - logger - appLogger -INFO - None
+2022-09-15 21:44:38,919 - logger - appLogger -INFO - None
+2022-09-15 21:44:40,390 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:44:40,393 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:44:40,396 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:44:40,403 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:44:40,625 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:44:40,627 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:44:40,631 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:44:41,031 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:44:41,034 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:44:41,054 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:44:41,058 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:47:02,966 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:47:02,968 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:47:03,024 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:47:03,026 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:47:03,028 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:47:06,156 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:47:06,157 - logger - appLogger -INFO - None
+2022-09-15 21:47:06,160 - logger - appLogger -INFO - None
+2022-09-15 21:47:07,701 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:47:07,705 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:47:07,709 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:47:07,718 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:47:08,039 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:47:08,040 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:47:08,045 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:47:08,396 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:47:08,399 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:47:08,423 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:47:08,427 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:48:49,946 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:48:49,948 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:48:50,010 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:48:50,011 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:48:50,013 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:48:53,739 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:48:53,742 - logger - appLogger -INFO - None
+2022-09-15 21:48:53,745 - logger - appLogger -INFO - None
+2022-09-15 21:48:55,803 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:48:55,804 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:48:55,806 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:48:55,811 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:48:56,049 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:48:56,050 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:48:56,057 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:48:56,437 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:48:56,440 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:48:56,494 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:48:56,497 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:49:04,624 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:49:04,628 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:49:04,789 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:49:04,791 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:49:04,792 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:49:07,817 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:49:07,819 - logger - appLogger -INFO - None
+2022-09-15 21:49:07,821 - logger - appLogger -INFO - None
+2022-09-15 21:49:10,554 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:49:10,556 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:49:10,561 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:49:10,566 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:49:10,797 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:49:10,798 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:49:10,803 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:49:11,180 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:49:11,183 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:49:11,254 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:49:11,257 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:49:18,726 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:49:18,728 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:49:18,804 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:49:18,806 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:49:18,808 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:49:21,364 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:49:21,366 - logger - appLogger -INFO - None
+2022-09-15 21:49:21,368 - logger - appLogger -INFO - None
+2022-09-15 21:49:22,343 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:49:22,346 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:49:22,349 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:49:22,356 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:49:22,475 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:49:22,478 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:49:22,483 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:49:22,803 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:49:22,809 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:49:22,838 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:49:22,842 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:50:05,182 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:50:05,184 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:50:05,243 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:50:05,246 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:50:05,247 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:50:08,310 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:50:08,312 - logger - appLogger -INFO - None
+2022-09-15 21:50:08,315 - logger - appLogger -INFO - None
+2022-09-15 21:50:09,537 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:50:09,539 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:50:09,541 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:50:09,546 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:50:09,740 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:50:09,742 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:50:09,747 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:50:10,124 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:50:10,129 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:50:10,160 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:50:10,163 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:50:15,530 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:50:15,532 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:50:15,590 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:50:15,593 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:50:15,595 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:50:18,083 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:50:18,085 - logger - appLogger -INFO - None
+2022-09-15 21:50:18,087 - logger - appLogger -INFO - None
+2022-09-15 21:50:19,457 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:50:19,459 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:50:19,461 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:50:19,466 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:50:19,815 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:50:19,817 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:50:19,823 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:50:20,212 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:50:20,216 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:50:20,372 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:50:20,377 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:50:40,295 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:50:40,297 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:50:40,352 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:50:40,353 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:50:40,355 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:50:44,621 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:50:44,624 - logger - appLogger -INFO - None
+2022-09-15 21:50:44,628 - logger - appLogger -INFO - None
+2022-09-15 21:50:48,396 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:50:48,398 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:50:48,400 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:50:48,404 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:50:48,558 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:50:48,559 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:50:48,563 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:50:48,927 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:50:48,930 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:50:48,951 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:50:48,954 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:50:56,263 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:50:56,266 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:50:56,327 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:50:56,329 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:50:56,330 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:51:00,666 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:51:00,668 - logger - appLogger -INFO - None
+2022-09-15 21:51:00,670 - logger - appLogger -INFO - None
+2022-09-15 21:51:04,635 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:51:04,637 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:51:04,639 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:51:04,643 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:51:04,952 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:51:04,954 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:51:04,958 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:51:05,314 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:51:05,318 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:51:05,368 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:51:05,371 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:52:16,831 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:52:16,833 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:52:16,894 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:52:16,896 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:52:16,898 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:52:20,543 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:52:20,548 - logger - appLogger -INFO - None
+2022-09-15 21:52:20,552 - logger - appLogger -INFO - None
+2022-09-15 21:52:21,882 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:52:21,885 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:52:21,887 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:52:21,896 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:52:22,031 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:52:22,034 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:52:22,038 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:52:22,376 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:52:22,379 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:52:22,406 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:52:22,409 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:52:28,024 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:52:28,027 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:52:28,086 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:52:28,088 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:52:28,089 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:52:30,605 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:52:30,606 - logger - appLogger -INFO - None
+2022-09-15 21:52:30,608 - logger - appLogger -INFO - None
+2022-09-15 21:52:32,711 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:52:32,713 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:52:32,715 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:52:32,720 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:52:32,900 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:52:32,902 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:52:32,906 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:52:33,171 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:52:33,175 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:52:33,225 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:52:33,228 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:52:39,918 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:52:39,920 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:52:39,980 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:52:39,983 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:52:39,985 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:52:42,431 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:52:42,432 - logger - appLogger -INFO - None
+2022-09-15 21:52:42,434 - logger - appLogger -INFO - None
+2022-09-15 21:52:45,649 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:52:45,652 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:52:45,655 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:52:45,662 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:52:46,007 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:52:46,009 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:52:46,014 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:52:46,369 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:52:46,375 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:52:46,420 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:52:46,425 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:54:30,252 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:54:30,254 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:54:30,320 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:54:30,322 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:54:30,325 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:54:33,698 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:54:33,699 - logger - appLogger -INFO - None
+2022-09-15 21:54:33,700 - logger - appLogger -INFO - None
+2022-09-15 21:54:34,820 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:54:34,822 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:54:34,824 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:54:34,830 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:54:35,038 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:54:35,040 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:54:35,047 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:54:35,334 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:54:35,337 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:54:35,364 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:54:35,367 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:55:46,477 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:55:46,480 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:55:46,539 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:55:46,541 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:55:46,544 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:55:50,053 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:55:50,055 - logger - appLogger -INFO - None
+2022-09-15 21:55:50,057 - logger - appLogger -INFO - None
+2022-09-15 21:55:51,253 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:55:51,255 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:55:51,257 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:55:51,262 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:55:51,468 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:55:51,471 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:55:51,475 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:55:51,821 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:55:51,825 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:55:51,896 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:55:51,899 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:55:57,053 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:55:57,055 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:55:57,115 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:55:57,117 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:55:57,118 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:56:00,820 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:56:00,821 - logger - appLogger -INFO - None
+2022-09-15 21:56:00,823 - logger - appLogger -INFO - None
+2022-09-15 21:56:01,989 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:56:01,991 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:56:01,993 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:56:01,998 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:56:02,250 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:56:02,252 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:56:02,256 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:56:02,559 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:56:02,564 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:56:02,700 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:56:02,703 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:56:35,485 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 21:56:35,488 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 21:56:35,547 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 21:56:35,549 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 21:56:35,551 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:56:39,471 - logger - appLogger -INFO - Using scrappers
+2022-09-15 21:56:39,473 - logger - appLogger -INFO - None
+2022-09-15 21:56:39,475 - logger - appLogger -INFO - None
+2022-09-15 21:56:40,800 - logger - appLogger -INFO -  Using parsers
+2022-09-15 21:56:40,802 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:56:40,804 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:56:40,809 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 21:56:41,142 - logger - appLogger -INFO - Generating parsers
+2022-09-15 21:56:41,144 - logger - appLogger -INFO - Getting parsers
+2022-09-15 21:56:41,150 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 21:56:41,490 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:56:41,493 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 21:56:41,518 - logger - appLogger -INFO - Sorting by price
+2022-09-15 21:56:41,521 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:01:31,454 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 22:01:31,456 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 22:01:31,518 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 22:01:31,520 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 22:01:31,521 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:01:34,868 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:01:34,869 - logger - appLogger -INFO - None
+2022-09-15 22:01:34,871 - logger - appLogger -INFO - None
+2022-09-15 22:01:49,242 - logger - appLogger -INFO -  Using parsers
+2022-09-15 22:01:49,244 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:01:49,246 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:01:49,250 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 22:01:49,407 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:01:49,407 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:01:49,412 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 22:01:49,725 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:01:49,729 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:01:49,756 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:01:49,760 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:03:12,249 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 22:03:12,251 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 22:03:12,305 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 22:03:12,306 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 22:03:12,308 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:03:16,608 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:03:16,612 - logger - appLogger -INFO - None
+2022-09-15 22:03:16,619 - logger - appLogger -INFO - None
+2022-09-15 22:03:17,924 - logger - appLogger -INFO -  Using parsers
+2022-09-15 22:03:17,926 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:03:17,927 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:03:17,932 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 22:03:18,212 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:03:18,214 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:03:18,218 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 22:03:18,535 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:03:18,538 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:03:18,568 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:03:18,570 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:04:18,694 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 22:04:18,697 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 22:04:18,753 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 22:04:18,755 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 22:04:18,756 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:04:23,081 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:04:23,083 - logger - appLogger -INFO - None
+2022-09-15 22:04:23,085 - logger - appLogger -INFO - None
+2022-09-15 22:04:24,183 - logger - appLogger -INFO -  Using parsers
+2022-09-15 22:04:24,187 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:04:24,189 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:04:24,195 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 22:04:24,337 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:04:24,338 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:04:24,342 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 22:04:24,622 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:04:24,625 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:04:24,689 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:04:24,692 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:04:31,272 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 22:04:31,275 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 22:04:31,341 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:04:31,344 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:04:35,725 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 22:04:35,727 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 22:04:35,799 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 22:04:35,801 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 22:04:35,803 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:04:40,205 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:04:40,207 - logger - appLogger -INFO - None
+2022-09-15 22:04:40,208 - logger - appLogger -INFO - None
+2022-09-15 22:04:41,600 - logger - appLogger -INFO -  Using parsers
+2022-09-15 22:04:41,601 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:04:41,603 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:04:41,607 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 22:04:41,799 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:04:41,801 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:04:41,805 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 22:04:42,125 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:04:42,128 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:04:42,157 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:04:42,163 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:04:47,975 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 22:04:47,977 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 22:04:48,029 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 22:04:48,031 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 22:04:48,032 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:04:51,259 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:04:51,261 - logger - appLogger -INFO - None
+2022-09-15 22:04:51,263 - logger - appLogger -INFO - None
+2022-09-15 22:04:52,623 - logger - appLogger -INFO -  Using parsers
+2022-09-15 22:04:52,625 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:04:52,627 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:04:52,634 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 22:04:52,946 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:04:52,948 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:04:52,953 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 22:04:53,284 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:04:53,288 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:04:53,310 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:04:53,315 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:09:05,334 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 22:09:05,336 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 22:09:05,392 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 22:09:05,394 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 22:09:05,396 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:09:08,522 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:09:08,524 - logger - appLogger -INFO - None
+2022-09-15 22:09:08,525 - logger - appLogger -INFO - None
+2022-09-15 22:09:10,287 - logger - appLogger -INFO -  Using parsers
+2022-09-15 22:09:10,288 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:09:10,290 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:09:10,294 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 22:09:10,574 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:09:10,575 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:09:10,579 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 22:09:10,859 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:09:10,863 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:09:10,898 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:09:10,901 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:09:19,524 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 22:09:19,527 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 22:09:19,587 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 22:09:19,588 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 22:09:19,590 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:09:22,839 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:09:22,842 - logger - appLogger -INFO - None
+2022-09-15 22:09:22,845 - logger - appLogger -INFO - None
+2022-09-15 22:09:24,688 - logger - appLogger -INFO -  Using parsers
+2022-09-15 22:09:24,690 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:09:24,692 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:09:24,697 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 22:09:24,972 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:09:24,974 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:09:24,979 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 22:09:25,395 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:09:25,400 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:09:25,442 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:09:25,446 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:10:33,890 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 22:10:33,894 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 22:10:33,951 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 22:10:33,953 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 22:10:33,954 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:10:37,433 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:10:37,436 - logger - appLogger -INFO - None
+2022-09-15 22:10:37,439 - logger - appLogger -INFO - None
+2022-09-15 22:10:38,627 - logger - appLogger -INFO -  Using parsers
+2022-09-15 22:10:38,629 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:10:38,631 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:10:38,636 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 22:10:38,894 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:10:38,896 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:10:38,901 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 22:10:39,217 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:10:39,220 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:10:39,261 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:10:39,267 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:10:45,491 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 22:10:45,493 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 22:10:45,551 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 22:10:45,553 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 22:10:45,555 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:10:47,867 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:10:47,869 - logger - appLogger -INFO - None
+2022-09-15 22:10:47,871 - logger - appLogger -INFO - None
+2022-09-15 22:10:49,392 - logger - appLogger -INFO -  Using parsers
+2022-09-15 22:10:49,395 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:10:49,398 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:10:49,408 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 22:10:49,627 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:10:49,629 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:10:49,633 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 22:10:49,757 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:10:49,760 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:10:49,795 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:10:49,799 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:10:55,437 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 22:10:55,439 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 22:10:55,496 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 22:10:55,498 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 22:10:55,500 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:10:58,048 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:10:58,050 - logger - appLogger -INFO - None
+2022-09-15 22:10:58,051 - logger - appLogger -INFO - None
+2022-09-15 22:10:59,101 - logger - appLogger -INFO -  Using parsers
+2022-09-15 22:10:59,102 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:10:59,104 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:10:59,108 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 22:10:59,234 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:10:59,236 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:10:59,241 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 22:10:59,579 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:10:59,584 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:10:59,605 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:10:59,608 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:13:49,822 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 22:13:49,825 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 22:13:49,883 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 22:13:49,886 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 22:13:49,888 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:13:52,790 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:13:52,791 - logger - appLogger -INFO - None
+2022-09-15 22:13:52,793 - logger - appLogger -INFO - None
+2022-09-15 22:13:54,224 - logger - appLogger -INFO -  Using parsers
+2022-09-15 22:13:54,226 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:13:54,229 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:13:54,236 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 22:13:54,505 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:13:54,506 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:13:54,510 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 22:13:54,888 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:13:54,891 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:13:54,934 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:13:54,938 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:13:58,004 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 22:13:58,005 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 22:13:58,067 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 22:13:58,069 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 22:13:58,071 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:14:01,729 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:14:01,731 - logger - appLogger -INFO - None
+2022-09-15 22:14:01,735 - logger - appLogger -INFO - None
+2022-09-15 22:14:03,062 - logger - appLogger -INFO -  Using parsers
+2022-09-15 22:14:03,064 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:14:03,066 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:14:03,070 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 22:14:03,390 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:14:03,392 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:14:03,397 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 22:14:03,669 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:14:03,672 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:14:03,745 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:14:03,749 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:14:06,516 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 22:14:06,518 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 22:14:06,625 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 22:14:06,625 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 22:14:06,628 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:14:10,092 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:14:10,094 - logger - appLogger -INFO - None
+2022-09-15 22:14:10,096 - logger - appLogger -INFO - None
+2022-09-15 22:14:11,991 - logger - appLogger -INFO -  Using parsers
+2022-09-15 22:14:11,992 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:14:11,994 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:14:11,997 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 22:14:12,257 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:14:12,259 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:14:12,264 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 22:14:12,562 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:14:12,566 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:14:12,651 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:14:12,654 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:14:15,273 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 22:14:15,275 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 22:14:15,331 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 22:14:15,333 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 22:14:15,334 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:14:18,481 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:14:18,484 - logger - appLogger -INFO - None
+2022-09-15 22:14:18,486 - logger - appLogger -INFO - None
+2022-09-15 22:14:19,856 - logger - appLogger -INFO -  Using parsers
+2022-09-15 22:14:19,857 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:14:19,859 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:14:19,865 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 22:14:20,105 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:14:20,106 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:14:20,111 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 22:14:20,396 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:14:20,400 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:14:20,437 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:14:20,441 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:14:23,260 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 22:14:23,261 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 22:14:23,317 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 22:14:23,319 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 22:14:23,320 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:14:26,868 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:14:26,870 - logger - appLogger -INFO - None
+2022-09-15 22:14:26,872 - logger - appLogger -INFO - None
+2022-09-15 22:14:28,512 - logger - appLogger -INFO -  Using parsers
+2022-09-15 22:14:28,514 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:14:28,517 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:14:28,521 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 22:14:28,790 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:14:28,792 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:14:28,797 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 22:14:29,310 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:14:29,313 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:14:29,366 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:14:29,369 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:14:32,412 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 22:14:32,415 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 22:14:32,472 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 22:14:32,474 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 22:14:32,476 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:14:35,774 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:14:35,776 - logger - appLogger -INFO - None
+2022-09-15 22:14:35,778 - logger - appLogger -INFO - None
+2022-09-15 22:14:37,239 - logger - appLogger -INFO -  Using parsers
+2022-09-15 22:14:37,241 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:14:37,243 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:14:37,248 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 22:14:37,548 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:14:37,550 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:14:37,554 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 22:14:38,000 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:14:38,004 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:14:38,105 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:14:38,109 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:14:42,189 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 22:14:42,191 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 22:14:42,358 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 22:14:42,359 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 22:14:42,361 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:14:45,567 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:14:45,569 - logger - appLogger -INFO - None
+2022-09-15 22:14:45,570 - logger - appLogger -INFO - None
+2022-09-15 22:14:46,789 - logger - appLogger -INFO -  Using parsers
+2022-09-15 22:14:46,790 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:14:46,792 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:14:46,796 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 22:14:47,059 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:14:47,061 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:14:47,065 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 22:14:47,341 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:14:47,344 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:14:47,406 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:14:47,467 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:14:51,014 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 22:14:51,017 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 22:14:51,071 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 22:14:51,073 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 22:14:51,074 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:14:53,761 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:14:53,762 - logger - appLogger -INFO - None
+2022-09-15 22:14:53,764 - logger - appLogger -INFO - None
+2022-09-15 22:14:54,870 - logger - appLogger -INFO -  Using parsers
+2022-09-15 22:14:54,871 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:14:54,873 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:14:54,877 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 22:14:55,203 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:14:55,205 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:14:55,210 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 22:14:55,447 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:14:55,451 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:14:55,530 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:14:55,534 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:16:09,272 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 22:16:09,274 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 22:16:09,328 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 22:16:09,330 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 22:16:09,331 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:16:11,322 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:16:11,324 - logger - appLogger -INFO - None
+2022-09-15 22:16:11,326 - logger - appLogger -INFO - None
+2022-09-15 22:16:12,348 - logger - appLogger -INFO -  Using parsers
+2022-09-15 22:16:12,350 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:16:12,352 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:16:12,356 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 22:16:12,467 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:16:12,468 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:16:12,473 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 22:16:12,743 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:16:12,746 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:16:12,762 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:16:12,766 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:16:20,338 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 22:16:20,339 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 22:16:20,398 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 22:16:20,399 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 22:16:20,401 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:16:21,767 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:16:21,768 - logger - appLogger -INFO - None
+2022-09-15 22:16:21,770 - logger - appLogger -INFO - None
+2022-09-15 22:16:23,032 - logger - appLogger -INFO -  Using parsers
+2022-09-15 22:16:23,035 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:16:23,037 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:16:23,044 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 22:16:23,264 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:16:23,266 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:16:23,270 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 22:16:23,414 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:16:23,417 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:16:23,485 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:16:23,489 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:16:29,031 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 22:16:29,034 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 22:16:29,090 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 22:16:29,092 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 22:16:29,094 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:16:30,628 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:16:30,630 - logger - appLogger -INFO - None
+2022-09-15 22:16:30,635 - logger - appLogger -INFO - None
+2022-09-15 22:16:31,845 - logger - appLogger -INFO -  Using parsers
+2022-09-15 22:16:31,847 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:16:31,850 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:16:31,857 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 22:16:32,159 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:16:32,161 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:16:32,166 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 22:16:32,490 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:16:32,494 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:16:32,540 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:16:32,543 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:16:34,684 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 22:16:34,686 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 22:16:34,748 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 22:16:34,750 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 22:16:34,752 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:16:36,314 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:16:36,316 - logger - appLogger -INFO - None
+2022-09-15 22:16:36,317 - logger - appLogger -INFO - None
+2022-09-15 22:16:37,631 - logger - appLogger -INFO -  Using parsers
+2022-09-15 22:16:37,633 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:16:37,634 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:16:37,638 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 22:16:37,948 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:16:37,950 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:16:37,955 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 22:16:38,295 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:16:38,298 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:16:38,327 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:16:38,330 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:16:41,479 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 22:16:41,482 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 22:16:41,639 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:16:41,642 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:16:43,507 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 22:16:43,509 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 22:16:43,566 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 22:16:43,567 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 22:16:43,569 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:16:46,963 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:16:46,965 - logger - appLogger -INFO - None
+2022-09-15 22:16:46,967 - logger - appLogger -INFO - None
+2022-09-15 22:16:48,968 - logger - appLogger -INFO -  Using parsers
+2022-09-15 22:16:48,969 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:16:48,971 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:16:48,976 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 22:16:49,289 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:16:49,291 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:16:49,296 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 22:16:49,576 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:16:49,579 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:16:49,668 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:16:49,671 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:16:55,585 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 22:16:55,588 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 22:16:55,648 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 22:16:55,650 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 22:16:55,652 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:16:59,635 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:16:59,636 - logger - appLogger -INFO - None
+2022-09-15 22:16:59,638 - logger - appLogger -INFO - None
+2022-09-15 22:17:00,916 - logger - appLogger -INFO -  Using parsers
+2022-09-15 22:17:00,918 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:17:00,919 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:17:00,924 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 22:17:01,154 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:17:01,156 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:17:01,160 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 22:17:01,427 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:17:01,430 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:17:01,458 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:17:01,461 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:20:33,615 - logger - appLogger -INFO - Getting products for API connection
+2022-09-15 22:20:33,617 - logger - appLogger -INFO - Makes data collector work
+2022-09-15 22:20:33,777 - logger - appLogger -INFO -  Using scrapers
+2022-09-15 22:20:33,779 - logger - appLogger -INFO - Getting scrappers
+2022-09-15 22:20:33,780 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:20:33,784 - logger - appLogger -INFO - Scraping Amazon
+2022-09-15 22:20:33,786 - logger - appLogger -INFO - Geting Amazon url
+2022-09-15 22:20:36,226 - logger - appLogger -INFO - Using scrappers
+2022-09-15 22:20:36,228 - logger - appLogger -INFO - Scrapping Ebay
+2022-09-15 22:20:36,230 - logger - appLogger -INFO - Setting Ebay url
+2022-09-15 22:20:37,905 - logger - appLogger -INFO -  Using parsers
+2022-09-15 22:20:37,907 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:20:37,908 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:20:37,912 - logger - appLogger -INFO -  Parse information from Amazon HTML 
+2022-09-15 22:20:38,158 - logger - appLogger -INFO - Generating parsers
+2022-09-15 22:20:38,160 - logger - appLogger -INFO - Getting parsers
+2022-09-15 22:20:38,165 - logger - appLogger -INFO -  Parse information from Ebay HTML 
+2022-09-15 22:20:38,601 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:20:38,604 - logger - appLogger -INFO - Setting amount of products on list
+2022-09-15 22:20:38,629 - logger - appLogger -INFO - Sorting by price
+2022-09-15 22:20:38,632 - logger - appLogger -INFO - Setting amount of products on list

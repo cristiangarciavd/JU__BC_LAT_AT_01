@@ -1,6 +1,6 @@
 import requests
 from api.scraper.scraper_strategy import ScraperStrategy
-
+from logger.logger import *
 
 class EbayScrapperStrategy(ScraperStrategy):
     def __init__(self) -> None:
@@ -9,12 +9,16 @@ class EbayScrapperStrategy(ScraperStrategy):
     def __str__(self):
         return "ebay"
 
+    @wrap(entering, exiting)
     def get_url(self, item):
+        """Setting Ebay url"""
         item = item.split()
         item = "+".join(item)
         return self.url.format(item)
     
+    @wrap(entering, exiting)
     def read_information(self,item):
+        """Scrapping Ebay"""
         self.url = self.get_url(item)
         r = requests.get(self.url)
         try:

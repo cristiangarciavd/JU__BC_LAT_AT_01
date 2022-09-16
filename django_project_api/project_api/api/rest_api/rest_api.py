@@ -1,11 +1,13 @@
 from django.http import JsonResponse
-
+from logger.logger import *
 from api.data_analizer.data_analize import DataCollector
 
 
 class RestApi(object):
 
+    @wrap(entering, exiting)
     def get_products(self, prod_name: str):
+        """Getting products for API connection"""
         dt = DataCollector()
         dt.collect(prod_name)
         dt.sort_by_price()
