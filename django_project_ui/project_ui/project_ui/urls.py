@@ -31,5 +31,4 @@ from django.views.generic import RedirectView
 urlpatterns += [
     path('', RedirectView.as_view(url='/easyProduct/home', permanent=True)),
     path('easyProduct/', RedirectView.as_view(url='/easyProduct/home', permanent=True)),
-    path('/', RedirectView.as_view(url='/easyProduct/home', permanent=True)),
 ]

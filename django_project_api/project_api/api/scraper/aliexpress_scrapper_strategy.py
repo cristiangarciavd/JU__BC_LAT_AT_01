@@ -41,6 +41,10 @@ class AliexpressScraperStrategy(ScraperStrategy):
             url = self.get_url(item)
             option = Options()
             option.headless = True
+            option.add_argument('--headless')
+            # options.add_argument('window-size=1200x600')
+            option.add_argument('--no-sandbox')
+            option.add_argument('--disable-dev-shm-usage')
             driver = webdriver.Chrome(ChromeDriverManager().install(), options=option)
             driver.get(url)
             return driver.page_source

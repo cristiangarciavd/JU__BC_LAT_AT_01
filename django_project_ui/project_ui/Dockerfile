@@ -15,3 +15,4 @@ RUN pip install -r requirements.txt
 
 # Copy project
 COPY . /code
+EXPOSE 7000

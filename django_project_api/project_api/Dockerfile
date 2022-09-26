@@ -15,5 +15,17 @@ RUN pip install -r requirements.txt
 COPY ./setup.py /code
 RUN pip install -e .
 
+RUN apt-get -y update
+RUN apt-get install wget
+RUN wget https://dl.google.com/linux/linux_signing_key.pub
+RUN apt-get install gnupg
+RUN apt-key add linux_signing_key.pub
+RUN apt update
+RUN apt-get install chromium -y
+RUN apt-get install -yqq unzip curl
+RUN wget -O /tmp/chromedriver.zip http://chromedriver.storage.googleapis.com/`curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE`/chromedriver_linux64.zip
+RUN unzip /tmp/chromedriver.zip chromedriver -d /usr/local/bin/
+
 # Copy project
 COPY . /code
+EXPOSE 8000
