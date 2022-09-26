@@ -7,7 +7,7 @@ from logger.logger import *
 class Scraper:
 
     def __init__(self):
-        self.strategies = [AmazonScrapperStrategy(), EbayScrapperStrategy()]
+        self.strategies = [AmazonScrapperStrategy(), EbayScrapperStrategy(), AliexpressScraperStrategy()]
     
     @wrap(entering, exiting)
     def scrap_page(self, strategy: ScraperStrategy, product) -> {str: str}:
