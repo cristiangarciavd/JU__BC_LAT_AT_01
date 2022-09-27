@@ -21,6 +21,6 @@ selenium==4.4.3
 webdriver_manager==3.8.3
 chromedriver-binary-auto==0.2.0
 
-psycopg2>=2.8
+psycopg2-binary
 django-environ==0.9.0
 
