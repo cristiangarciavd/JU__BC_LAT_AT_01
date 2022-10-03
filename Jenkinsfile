@@ -14,6 +14,14 @@ pipeline {
                 echo "Testing security with snyk"
             }
         }
+        stage('DB migrations'){
+            steps {
+                sh '''
+                chmod +x django_project_api/project_api/docker-entrypoint.sh'
+                ./docker-entrypoint.sh
+                '''
+            }
+        }
         stage('Code coverage Test') {
             steps {
                 echo "Todo install sonarqube server"
