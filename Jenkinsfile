@@ -21,12 +21,12 @@ pipeline {
         }
         stage("Test stage") {
             steps {
-                sh "./mvnw test"
+                secho "Todo test"
             }
         }
         stage("Build") {
             steps {
-                sh "./mvnw compile"
+                echo "Todo build"
             }
         }
     }
