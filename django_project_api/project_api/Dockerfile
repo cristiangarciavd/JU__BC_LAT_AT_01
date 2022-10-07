@@ -30,4 +30,4 @@ RUN unzip /tmp/chromedriver.zip chromedriver -d /usr/local/bin/
 # Copy project
 COPY . /code
 EXPOSE 8000
-ENTRYPOINT [ "./docker-entrypoint.sh" ]
+ENTRYPOINT [ "bash", "./docker-entrypoint.sh" ]
