@@ -16,4 +16,4 @@ RUN pip install -r requirements.txt
 # Copy project
 COPY . /code
 EXPOSE 7000
-ENTRYPOINT [ "./docker-entrypoint.sh" ]
+ENTRYPOINT [ "bash", "./docker-entrypoint.sh" ]
