@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 
 from pathlib import Path
 import environ
-import os
 
 env = environ.Env()
 env.read_env()
@@ -89,7 +88,7 @@ DATABASES = {
         'NAME': env('NAME'),
         'USER': env('USER'),
         'PASSWORD': env('PASSWORD'),
-        'HOST': os.getenv('DB_HOST', 'localhost'),
+        'HOST': env('HOST'),
         'PORT': env('PORT'),
     }
 }
