@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 
 from pathlib import Path
 import environ
-import os
 
 env = environ.Env()
 env.read_env()
@@ -30,7 +29,7 @@ SECRET_KEY = 'django-insecure-q()==w5yksiv2rcdy#a!-43o85d_tlf2%06i^9r996swd1ka&2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["project"]
+ALLOWED_HOSTS = ["project", "localhost", "127.0.0.1", "3.83.230.38"]
 
 
 # Application definition
@@ -89,7 +88,7 @@ DATABASES = {
         'NAME': env('NAME'),
         'USER': env('USER'),
         'PASSWORD': env('PASSWORD'),
-        'HOST': os.getenv('DB_HOST', 'localhost'),
+        'HOST': env('HOST'),
         'PORT': env('PORT'),
     }
 }

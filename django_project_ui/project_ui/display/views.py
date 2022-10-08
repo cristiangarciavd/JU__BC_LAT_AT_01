@@ -24,7 +24,7 @@ class Receiver:
         """ Retrieve products from API """
         if request.GET.get('search_product'):
             search_product=request.GET.get('search_product')
-            url = 'http://project:8000/products/'+search_product
+            url = 'http://3.83.230.38:8000/products/'+search_product
             response = requests.get(url).json()
         else:
             response = None
