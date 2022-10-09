@@ -27,15 +27,3 @@ class test_aliexpress_parser(unittest.TestCase):
 			for key, value in product.items():
 				self.assertNotEqual(value, None)
 
-
-	def test_show_aliexpress_items(self):
-		f = open('ali.html', encoding="utf8")
-		file = f.read()
-		parser = AliexpressParser()
-		products = parser.parse(file)
-		count = 0
-		for product in products:
-			for key, value in product.items():
-				print(f'{key}|{value}\n')
-			count +=1
-		print(count)

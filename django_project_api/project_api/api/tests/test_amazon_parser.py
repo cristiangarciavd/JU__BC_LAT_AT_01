@@ -27,15 +27,6 @@ class test_amazon_parser(unittest.TestCase):
 			for key, value in product.items():
 				self.assertNotEqual(value, None)
 
-	def test_show_amazon_items(self):
-		f =open('response_amazon.txt')
-		file = f.read()
-		parser = AmazonParser()
-		products = parser.parse(file)
-		for product in products:
-			for key, value in product.items():
-				print(f'{key} | {value}')
-			print('---')
 
 
 
