@@ -92,19 +92,19 @@ pipeline {
         success {
             office365ConnectorSend color: '#86BC25', 
             status: currentBuild.result, 
-            webhookUrl: "${URL_WEBHOOK_C}",
+            webhookUrl: "${EASYP_WEBHOOK}",
             message: "Images have been uploaded to Docker Hub. - ${currentBuild.displayName}<br>Pipeline duration: ${currentBuild.durationString.replace(' and counting', '')}"
         }
         unstable {
             office365ConnectorSend color: '#FFE933', 
             status: currentBuild.result, 
-            webhookUrl: "${URL_WEBHOOK_C}",
+            webhookUrl: "${EASYP_WEBHOOK}",
             message: "Successfully Build but Unstable. Unstable means test failure, code violation, push to remote failed etc. : ${JOB_NAME} - ${currentBuild.displayName}<br>Pipeline duration: ${currentBuild.durationString.replace(' and counting', '')}"
         }
         failure {
             office365ConnectorSend color: '#ff0000', 
             status: currentBuild.result, 
-            webhookUrl: "${URL_WEBHOOK_C}",
+            webhookUrl: "${EASYP_WEBHOOK}",
             message: "Build Failed. - ${currentBuild.displayName}<br>Pipeline duration: ${currentBuild.durationString.replace(' and counting', '')}"
         }
         always {
