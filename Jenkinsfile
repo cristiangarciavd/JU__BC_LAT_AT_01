@@ -65,9 +65,9 @@ pipeline {
             steps {withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin']) {
                 sh '''
                 docker rmi try_easyp2-project
-                docker rmi try_easyp2-project:$BUILD_NUMBER
+                docker rmi $DOCKERHUB_USR/try_easyp2-project:$BUILD_NUMBER
                 docker rmi try_easyp2-frontend
-                docker rmi try_easyp2-frontend:$BUILD_NUMBER
+                docker rmi $DOCKERHUB_USR/try_easyp2-frontend:$BUILD_NUMBER
                 docker rmi postgres
                 '''
                 echo 'Docker Images Removal Completed'
