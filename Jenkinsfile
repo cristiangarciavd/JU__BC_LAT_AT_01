@@ -40,10 +40,8 @@ pipeline {
         stage('Test') {
             steps {withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin']) {
                     sh '''
-                    docker rm -f backend
-                    docker run --name=backend -p 8000:8000 -d dockercgvd/try_easyp2-project:$BUILD_NUMBER
+                    docker run --rm --name=backend -p 8000:8000 -d dockercgvd/try_easyp2-project:$BUILD_NUMBER
                     docker exec backend sh -c "python -m unittest discover -s api/tests"
-                    docker rm -f backend
                     '''
                     echo "Testing completed"
                 }
@@ -68,7 +66,6 @@ pipeline {
                 docker rmi $DOCKERHUB_USR/try_easyp2-project:$BUILD_NUMBER
                 docker rmi try_easyp2-frontend
                 docker rmi $DOCKERHUB_USR/try_easyp2-frontend:$BUILD_NUMBER
-                docker rmi postgres
                 '''
                 echo 'Docker Images Removal Completed'
                 sh 'docker images'
