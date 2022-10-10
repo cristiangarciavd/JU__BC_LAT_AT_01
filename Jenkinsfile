@@ -1,13 +1,14 @@
 pipeline {
-    agent any
+    agent {
+        docker { image 'openjdk:17.0.2' }
+    }
     stages {
         stage("verify tooling") {
             steps {withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin']) {
                 sh '''
                   docker version
                   docker info
-                  docker-compose version 
-                  curl --version
+                  docker-compose version
                 '''
                 }
             }
@@ -74,10 +75,12 @@ pipeline {
         //         		sh """
         //        	 	    #!/bin/bash
         //         		ssh -i $KEY_PAIR ec2-user@3.38.230.38 << EOF
-        //         		docker pull dockercgvd/try_easyp2-frontend:$BUILD_NUMBER
-        //         		docker pull dockercgvd/try_easyp2-project:$BUILD_NUMBER
-		// 	            docker run --network="mynet" --name=frontend -p 7000:7000 -d dockercgvd/try_easyp2-frontend:$BUILD_NUMBER
-        //         		docker run --network="mynet" --name=backend -p 8000:8000 -d dockercgvd/try_easyp2-project:$BUILD_NUMBER
+        //         		docker pull $DOCKERHUB_USR/try_easyp2-frontend:$BUILD_NUMBER
+        //         		docker pull $DOCKERHUB_USR/try_easyp2-project:$BUILD_NUMBER
+        //                 docker rm -f frontend
+		// 	            docker run --network="mynet" --name=frontend -p 7000:7000 -d $DOCKERHUB_USR/try_easyp2-frontend:$BUILD_NUMBER
+        //         		docker rm -f backend
+        //                 docker run --network="mynet" --name=backend -p 8000:8000 -d $DOCKERHUB_USR/try_easyp2-project:$BUILD_NUMBER
 		// 	            docker system prune -f
 		//             	<< EOF
         //         		"""
