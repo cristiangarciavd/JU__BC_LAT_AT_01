@@ -12,34 +12,29 @@ pipeline {
                 }
             }
         }
-        stage('Checkout') {
-            steps {
-                checkout([$class: 'GitSCM', branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: "$GIT_HUB_URL"]]])
-            }
-        }
-        stage('Cloning our Git') {
+        stage('Cloning Git Project') {
             steps {
                 git branch: 'main', url: "$GIT_HUB_URL"
             }
         }
-        stage('Build Docker Image') {  
+        stage('Build Docker Images') {  
             steps {withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin']) {
                 sh 'docker-compose build'
                 echo 'Docker-compose-build Build Image Completed'
-                sh 'docker images'
                 }
             }                     
         }
-        stage("Tag docker image") {
+        stage("Tag Docker Images") {
             steps {withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin']) {
                 sh "docker tag try_easyp2-project $DOCKERHUB_USR/try_easyp2-project:$BUILD_NUMBER"
                 sh "docker tag try_easyp2-frontend $DOCKERHUB_USR/try_easyp2-frontend:$BUILD_NUMBER"
                 }
             }
         }
-        stage('Test') {
+        stage('Testing Project') {
             steps {withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin']) {
                     sh '''
+                    docker rm -f backend && echo 'removed container' || echo 'nothing to remove'
                     docker run --rm --name=backend -p 8000:8000 -d dockercgvd/try_easyp2-project:$BUILD_NUMBER
                     docker exec backend sh -c "python -m unittest discover -s api/tests"
                     '''
@@ -47,7 +42,7 @@ pipeline {
                 }
             }
         }
-        stage('Push Image to Docker Hub') {         
+        stage('Push Images to Docker Hub') {         
             steps {withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin']) {
                 withCredentials([usernamePassword(credentialsId: 'docker_hub_credentials', passwordVariable: 'DOCKERHUB_PSW', usernameVariable: 'DOCKERHUB_USR')]) {
                     sh 'echo $DOCKERHUB_PSW | docker login -u $DOCKERHUB_USR --password-stdin'                     
@@ -68,7 +63,6 @@ pipeline {
                 docker rmi $DOCKERHUB_USR/try_easyp2-frontend:$BUILD_NUMBER
                 '''
                 echo 'Docker Images Removal Completed'
-                sh 'docker images'
                 }
             }                     
         }
