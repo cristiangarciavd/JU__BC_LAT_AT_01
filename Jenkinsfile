@@ -34,6 +34,7 @@ pipeline {
         stage('Testing Project') {
             steps {withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin']) {
                     sh '''
+                    docker system prune -f
                     docker rm -f backend && echo 'removed container' || echo 'nothing to remove'
                     docker run --rm --name=backend -p 8000:8000 -d dockercgvd/try_easyp2-project:$BUILD_NUMBER
                     docker exec backend sh -c "python -m unittest discover -s api/tests"
