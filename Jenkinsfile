@@ -30,6 +30,7 @@ pipeline {
             steps {withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin']) {
                 sh "docker tag try_easyp2-project $DOCKERHUB_USR/try_easyp2-project:local_$BUILD_NUMBER"
                 sh "docker tag try_easyp2-frontend $DOCKERHUB_USR/try_easyp2-frontend:local_$BUILD_NUMBER"
+                sh "docker tag postgres:12 $DOCKERHUB_USR/postgres:local_$BUILD_NUMBER"
                 }
             }
         }
@@ -52,6 +53,7 @@ pipeline {
                     echo 'Login Completed'
                     sh 'docker push $DOCKERHUB_USR/try_easyp2-project:local_$BUILD_NUMBER'
                     sh 'docker push $DOCKERHUB_USR/try_easyp2-frontend:local_$BUILD_NUMBER'
+                    sh 'docker push $DOCKERHUB_USR/postgres:local_$BUILD_NUMBER'
                     echo 'Push Images Completed'
                     }
                 }
@@ -64,6 +66,7 @@ pipeline {
                 docker rmi $DOCKERHUB_USR/try_easyp2-project:local_$BUILD_NUMBER
                 docker rmi try_easyp2-frontend
                 docker rmi $DOCKERHUB_USR/try_easyp2-frontend:local_$BUILD_NUMBER
+                docker system prune -a -f
                 '''
                 echo 'Docker Images Removal Completed'
                 }
