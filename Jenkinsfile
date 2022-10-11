@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Cloning Git Project') {
             steps {
-                git branch: 'main', url: "$GIT_HUB_URL"
+                git branch: 'local', url: "$GIT_HUB_URL"
             }
         }
         stage('Build Docker Images') {  
@@ -27,30 +27,30 @@ pipeline {
         }
         stage("Tag Docker Images") {
             steps {withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin']) {
-                sh "docker tag try_easyp2-project $DOCKERHUB_USR/try_easyp2-project:$BUILD_NUMBER"
-                sh "docker tag try_easyp2-frontend $DOCKERHUB_USR/try_easyp2-frontend:$BUILD_NUMBER"
+                sh "docker tag try_easyp2-project $DOCKERHUB_USR/try_easyp2-project:local_$BUILD_NUMBER"
+                sh "docker tag try_easyp2-frontend $DOCKERHUB_USR/try_easyp2-frontend:local_$BUILD_NUMBER"
                 }
             }
         }
-        stage('Testing Project') {
-            steps {withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin']) {
-                    sh '''
-                    docker rm -f backend || echo 'nothing to remove'
-                    docker run --rm --name=backend -p 8000:8000 -d dockercgvd/try_easyp2-project:$BUILD_NUMBER
-                    docker exec backend sh -c "python -m unittest discover -s api/tests"
-                    docker rm -f backend || echo 'nothing to remove'
-                    '''
-                    echo "Testing completed"
-                }
-            }
-        }
+        // stage('Testing Project') {
+        //     steps {withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin']) {
+        //             sh '''
+        //             docker rm -f backend || echo 'nothing to remove'
+        //             docker run --rm --name=backend -p 8000:8000 -d dockercgvd/try_easyp2-project:$BUILD_NUMBER
+        //             docker exec backend sh -c "python -m unittest discover -s api/tests"
+        //             docker rm -f backend || echo 'nothing to remove'
+        //             '''
+        //             echo "Testing completed"
+        //         }
+        //     }
+        // }
         stage('Push Images to Docker Hub') {         
             steps {withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin']) {
                 withCredentials([usernamePassword(credentialsId: 'docker_hub_credentials', passwordVariable: 'DOCKERHUB_PSW', usernameVariable: 'DOCKERHUB_USR')]) {
                     sh 'echo $DOCKERHUB_PSW | docker login -u $DOCKERHUB_USR --password-stdin'                     
                     echo 'Login Completed'
-                    sh 'docker push $DOCKERHUB_USR/try_easyp2-project:$BUILD_NUMBER'
-                    sh 'docker push $DOCKERHUB_USR/try_easyp2-frontend:$BUILD_NUMBER'
+                    sh 'docker push $DOCKERHUB_USR/try_easyp2-project:local_$BUILD_NUMBER'
+                    sh 'docker push $DOCKERHUB_USR/try_easyp2-frontend:local_$BUILD_NUMBER'
                     echo 'Push Images Completed'
                     }
                 }
@@ -60,9 +60,9 @@ pipeline {
             steps {withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin']) {
                 sh '''
                 docker rmi try_easyp2-project
-                docker rmi $DOCKERHUB_USR/try_easyp2-project:$BUILD_NUMBER
+                docker rmi $DOCKERHUB_USR/try_easyp2-project:local_$BUILD_NUMBER
                 docker rmi try_easyp2-frontend
-                docker rmi $DOCKERHUB_USR/try_easyp2-frontend:$BUILD_NUMBER
+                docker rmi $DOCKERHUB_USR/try_easyp2-frontend:local_$BUILD_NUMBER
                 '''
                 echo 'Docker Images Removal Completed'
                 }
@@ -91,27 +91,27 @@ pipeline {
         //     }                     
         // }
     }
-    post {
-        success {
-            office365ConnectorSend color: '#86BC25', 
-            status: currentBuild.result, 
-            webhookUrl: "${EASYP_WEBHOOK}",
-            message: "Images have been uploaded to Docker Hub. - ${currentBuild.displayName}<br>Pipeline duration: ${currentBuild.durationString.replace(' and counting', '')}"
-        }
-        unstable {
-            office365ConnectorSend color: '#FFE933', 
-            status: currentBuild.result, 
-            webhookUrl: "${EASYP_WEBHOOK}",
-            message: "Successfully Build but Unstable. Unstable means test failure, code violation, push to remote failed etc. : ${JOB_NAME} - ${currentBuild.displayName}<br>Pipeline duration: ${currentBuild.durationString.replace(' and counting', '')}"
-        }
-        failure {
-            office365ConnectorSend color: '#ff0000', 
-            status: currentBuild.result, 
-            webhookUrl: "${EASYP_WEBHOOK}",
-            message: "Build Failed. - ${currentBuild.displayName}<br>Pipeline duration: ${currentBuild.durationString.replace(' and counting', '')}"
-        }
-        always {
-            echo "Build completed with status: ${currentBuild.result}"
-        }
-    }
+    // post {
+    //     success {
+    //         office365ConnectorSend color: '#86BC25', 
+    //         status: currentBuild.result, 
+    //         webhookUrl: "${EASYP_WEBHOOK}",
+    //         message: "Images have been uploaded to Docker Hub. - ${currentBuild.displayName}<br>Pipeline duration: ${currentBuild.durationString.replace(' and counting', '')}"
+    //     }
+    //     unstable {
+    //         office365ConnectorSend color: '#FFE933', 
+    //         status: currentBuild.result, 
+    //         webhookUrl: "${EASYP_WEBHOOK}",
+    //         message: "Successfully Build but Unstable. Unstable means test failure, code violation, push to remote failed etc. : ${JOB_NAME} - ${currentBuild.displayName}<br>Pipeline duration: ${currentBuild.durationString.replace(' and counting', '')}"
+    //     }
+    //     failure {
+    //         office365ConnectorSend color: '#ff0000', 
+    //         status: currentBuild.result, 
+    //         webhookUrl: "${EASYP_WEBHOOK}",
+    //         message: "Build Failed. - ${currentBuild.displayName}<br>Pipeline duration: ${currentBuild.durationString.replace(' and counting', '')}"
+    //     }
+    //     always {
+    //         echo "Build completed with status: ${currentBuild.result}"
+    //     }
+    // }
 }

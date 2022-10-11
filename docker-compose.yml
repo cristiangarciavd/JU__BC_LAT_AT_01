@@ -8,6 +8,8 @@ services:
       - POSTGRES_DB=postgres
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=pistacho
+    networks:
+      - db-net
 
   project:
     build: ./django_project_api/project_api
@@ -21,6 +23,8 @@ services:
       - PASSWORD=pistacho
     depends_on:
       - db
+    networks:
+      - db-net
 
   frontend:
     build: ./django_project_ui/project_ui
@@ -30,3 +34,9 @@ services:
       - "7000:7000"
     depends_on:
       - project
+    networks:
+      - db-net
+  
+networks:
+  db-net:
+    driver: bridge
